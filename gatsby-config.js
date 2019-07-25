@@ -9,7 +9,6 @@ module.exports = {
   },
   plugins: [
     'gatsby-plugin-react-helmet',
-    'gatsby-plugin-sass',
     {
       resolve: 'gatsby-source-filesystem',
       options: {
@@ -17,16 +16,6 @@ module.exports = {
         path: `${__dirname}/src/data/images`,
       },
     },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        name: 'data',
-        path: `${__dirname}/src/data/`,
-      },
-    },
-    'gatsby-transformer-sharp',
-    'gatsby-plugin-sharp',
-    'gatsby-transformer-javascript-frontmatter',
     'gatsby-transformer-sharp',
     'gatsby-plugin-sharp',
     {
@@ -41,20 +30,5 @@ module.exports = {
         icon: 'src/data/images/gatsby-icon.png', // This path is relative to the root of the site.
       },
     },
-    {
-      resolve: 'gatsby-plugin-i18next',
-      options: {
-        availableLngs: ['en', 'ru', 'by'],
-        fallbackLng: 'en',
-      },
-    },
-    {
-      resolve: 'gatsby-source-filesystem',
-      options: {
-        path: `${__dirname}/locale`,
-        name: 'locale',
-      },
-    },
-    'gatsby-transformer-javascript-frontmatter',
   ],
 };
