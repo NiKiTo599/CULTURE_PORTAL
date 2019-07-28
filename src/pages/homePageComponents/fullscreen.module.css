@@ -1,0 +1,30 @@
+.container {
+    position: relative;
+}
+
+.image {
+    width: 100%;
+}
+
+.text_container {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+}
+
+.title {
+    display: flex;
+    color: white;
+    font-size: 3rem;
+    text-shadow: 0px 0px 16px rgba(11,5,3,0.97);
+}
+
+.title::before {
+    content: '';
+    display: block;
+    width: 10px;
+    height: 94px;
+    background-color: #ef454a;
+    margin-right: 15px;
+    margin-top: 12px;
+}
