@@ -1,0 +1,44 @@
+
+nav {
+    display: flex;
+    align-items: center;
+    position: relative;
+    height: 90px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.logo {
+    margin-right: 10px;
+    float: left;
+}
+
+.nav_left {
+    margin-left: 40px;
+    width: -webkit-fill-available;
+}
+
+.nav_right {
+    margin-left: auto;
+    margin-right: 40px;
+}
+
+.navigation_bar {
+    display: flex;
+    list-style: none;
+}
+
+.nav_item {
+    font-size: 26px;
+    padding: 0px 24px;
+    text-decoration: none;
+    color: #373737;
+}
+
+.nav_item:hover {
+    color: #0072c9;
+}

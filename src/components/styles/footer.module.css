@@ -1,0 +1,9 @@
+footer {
+    background-color: #373737;
+}
+
+.footer_text {
+    padding: 15px 40px;
+    font-size: 14px;
+    color: white;
+}
