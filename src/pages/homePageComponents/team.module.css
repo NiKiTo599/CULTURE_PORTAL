@@ -1,0 +1,32 @@
+.team_container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-color: #ef454a;
+}
+
+.member {
+    width: 33%;
+    margin: 100px 0px;
+    text-align: center;
+}
+
+.member_image {
+    border-radius: 50%;
+    width: 50%;
+}
+
+.member_name {
+    margin: 20px;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 1.3;
+    color: white;
+}
+
+.member_description {
+    margin: 20px;
+    font-size: 17px;
+    font-weight: 400;
+    color: white;
+}
