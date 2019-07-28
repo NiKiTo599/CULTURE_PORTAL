@@ -17,28 +17,28 @@ h1 {
     float: left;
 }
 
-.nav-left {
+.nav_left {
     margin-left: 40px;
     width: -webkit-fill-available;
 }
 
-.nav-right {
+.nav_right {
     margin-left: auto;
     margin-right: 40px;
 }
 
-.navigation-bar {
+.navigation_bar {
     display: flex;
     list-style: none;
 }
 
-.nav-item {
+.nav_item {
     font-size: 26px;
     padding: 0px 24px;
     text-decoration: none;
     color: #373737;
 }
 
-.nav-item:hover {
+.nav_item:hover {
     color: #0072c9;
 }
