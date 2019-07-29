@@ -5,6 +5,11 @@ exports.frontmatter = {
     date: '16 февраля (1 марта) 1917',
     img: 'Shmakov.jpg',
     youtube: 'https://www.youtube.com/watch?v=4aiEf8n3b98',
+    video_id: '4aiEf8n3b98',
+    places_for_map: [
+        'Витебск',
+        'Национальный академический драматический театр им. Якуба Коласа'
+    ],
     place_of_birth: 'Петроград',
     description: '',
     timeline: [

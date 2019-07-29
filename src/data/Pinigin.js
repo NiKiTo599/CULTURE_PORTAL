@@ -5,6 +5,11 @@ exports.frontmatter = {
     date: '6 августа 1957',
     img: 'Pinigin.jpg',
     youtube: 'https://www.youtube.com/watch?v=lexVZsR-GF0',
+    video_id: 'lexVZsR-GF0',
+    places_for_map: [
+        'Минск',
+        'Национальный академический театр имени Янки Купалы'
+    ],
     place_of_birth: 'Изюм Харьковская область УССР',
     description: 'белорусский режиссёр, заслуженный деятель искусств Республики Беларусь',
     timeline: [

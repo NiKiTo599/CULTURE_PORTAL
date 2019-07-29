@@ -5,6 +5,11 @@ exports.frontmatter = {
     date: '16 сентября 1937',
     img: 'Luzenko.jpg',
     youtube: 'https://www.youtube.com/watch?v=6Lbi3ObnBng',
+    video_id: '6Lbi3ObnBng',
+    places_for_map: [
+        'Минск',
+        'Национальный академический драматический театра имени М. Горького'
+    ],
     place_of_birth: 'Майкоп Адыгейская автономная область Краснодарский край РСФСР',
     description: 'советский и белорусский режиссёр-постановщик театра и кино',
     timeline: [

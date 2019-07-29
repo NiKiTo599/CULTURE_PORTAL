@@ -5,6 +5,11 @@ exports.frontmatter = {
     date: '2 (15) февраля 1902',
     img: 'Buslaeva.jpg',
     youtube: 'https://www.youtube.com/watch?v=kRp1dTeUo-8',
+    video_id: 'kRp1dTeUo-8',
+    places_for_map: [
+        'Минск',
+        'Белорусский театр оперы и балета в Минске'
+    ],
     place_of_birth: 'Минск',
     description: 'белорусская советская оперная певица (сопрано), режиссёр, публицист и общественный деятель',
     timeline: [

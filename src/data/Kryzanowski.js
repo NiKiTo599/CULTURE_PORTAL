@@ -5,6 +5,7 @@ exports.frontmatter = {
     date: '6 июня 1955',
     img: 'Kryzanowski.jpg',
     youtube: 'https://www.youtube.com/watch?v=r6AJQHtIsYc',
+    video_id: 'r6AJQHtIsYc',
     place_of_birth: 'Николаев Николаевская область Украинская ССР',
     description: 'белорусский юморист, актёр и главный режиссёр Минского театра сатиры и юмора "Христофор",удожественный руководитель телевизионного проекта "Юморинка"',
     timeline: [
