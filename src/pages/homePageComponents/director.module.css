@@ -3,6 +3,11 @@
     justify-content: space-between;
     align-items: center;
     margin: 140px 40px;
+    background-image: url(../../data/images/theatrical-masks.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position-y: 65%;
+    background-position-x: 10%;
 }
 
 .title {
@@ -11,6 +16,7 @@
 }
 
 .text_color {
+    font-weight: 600;
     color: #ef454a;
 }
 

@@ -39,6 +39,32 @@ h1 {
     color: #373737;
 }
 
+select:focus {
+    outline: none;
+}
+
+.lang_select {
+    font-size: 26px;
+    font-family: 'Montserrat';
+    color: #373737;
+    border: none;
+    margin-left: 10px;
+}
+
+.lang_select:hover {
+    color: #0072c9;
+    cursor: pointer;
+}
+
+select > option {
+    color: #373737;
+}
+
+select > option:hover {
+    color: white;
+    cursor: pointer;
+}
+
 .nav_item:hover {
     color: #0072c9;
 }
