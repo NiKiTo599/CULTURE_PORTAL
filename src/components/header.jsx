@@ -24,6 +24,13 @@ const Header = () => {
                         <li>
                             <Link to='/search' className={ headerStyle.nav_item }>Сatalog</Link>
                         </li>
+                        <li>
+                            <select className={ headerStyle.lang_select }>
+                                <option>EN</option>
+                                <option>BY</option>
+                                <option>RU</option>
+                            </select>
+                        </li>
                     </ul>  
                 </div>
             </nav>

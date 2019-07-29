@@ -9,7 +9,7 @@ const Fullscreen = () => {
             <div className={fullscreenStyle.text_container}>
                 <h2 className={fullscreenStyle.title}>
                 Web catalog <br/>
-                of the Theater Directors of Belarus
+                «Theater Directors of Belarus»
                 </h2>
             </div>
         </div>
