@@ -13,6 +13,22 @@ export const postQuery = graphql`
       frontmatter {
         path
         name
+        date
+        img
+        place_of_birth
+        description
+        timeline {
+          date
+          text
+        }
+        works {
+          subject
+          names
+        }
+        gallery {
+          img
+          description
+        }
       }
     }
   }
