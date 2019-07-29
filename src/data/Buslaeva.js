@@ -6,10 +6,11 @@ exports.frontmatter = {
     img: 'Łarysa_Aleksandr.jpg',
     youtube: 'https://www.youtube.com/watch?v=icg14Eihosw',
     video_id: 'icg14Eihosw',
-    places_for_map: [
-        'Минск',
-        'Республиканский театр белорусской драматургии'
-    ],
+    places_for_map: {
+        name: 'Республиканский театр белорусской драматургии',
+        width: 53.916759, 
+        length: 27.556389
+    },
     place_of_birth: 'Минск',
     description: 'белорусская театральная актриса, театральный режиссер и драматург',
     timeline: [

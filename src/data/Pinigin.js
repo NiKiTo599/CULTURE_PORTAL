@@ -6,10 +6,11 @@ exports.frontmatter = {
     img: 'Pinigin.jpg',
     youtube: 'https://www.youtube.com/watch?v=lexVZsR-GF0',
     video_id: 'lexVZsR-GF0',
-    places_for_map: [
-        'Минск',
-        'Национальный академический театр имени Янки Купалы'
-    ],
+    places_for_map: {
+        name: 'Национальный академический театр имени Янки Купалы',
+        width: 53.9009059,
+        length: 27.56275034479259
+    },
     place_of_birth: 'Изюм Харьковская область УССР',
     description: 'белорусский режиссёр, заслуженный деятель искусств Республики Беларусь',
     timeline: [
