@@ -106,7 +106,7 @@ exports.frontmatter = {
         },
 
     ],
-    galary: [
+    gallery: [
         {
             img: '',
             description: ''
