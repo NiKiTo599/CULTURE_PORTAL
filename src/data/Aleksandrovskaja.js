@@ -6,11 +6,13 @@ exports.frontmatter = {
     img: 'Buslaeva.jpg',
     youtube: 'https://www.youtube.com/watch?v=kRp1dTeUo-8',
     video_id: 'kRp1dTeUo-8',
-    places_for_map: {
-        name: 'Белорусский театр оперы и балета в Минске',
-        width: 53.9105122,
-        length: 27.561565220479686
-    },
+    places_for_map: [
+        {
+            name: 'Белорусский театр оперы и балета в Минске',
+            width: 53.9105122,
+            length: 27.561565220479686
+        },
+    ],
     place_of_birth: 'Минск',
     description: 'белорусская советская оперная певица (сопрано), режиссёр, публицист и общественный деятель',
     timeline: [

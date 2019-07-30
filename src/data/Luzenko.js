@@ -6,11 +6,13 @@ exports.frontmatter = {
     img: 'Luzenko.jpg',
     youtube: 'https://www.youtube.com/watch?v=6Lbi3ObnBng',
     video_id: '6Lbi3ObnBng',
-    places_for_map: {
-        name: 'Национальный академический драматический театра имени М. Горького',
-        width: 53.898,
-        length: 27.551,
-    },
+    places_for_map: [ 
+        {
+            name: 'Национальный академический драматический театра имени М. Горького',
+            width: 53.898,
+            length: 27.551,
+        },
+    ],
     place_of_birth: 'Майкоп Адыгейская автономная область Краснодарский край РСФСР',
     description: 'советский и белорусский режиссёр-постановщик театра и кино',
     timeline: [

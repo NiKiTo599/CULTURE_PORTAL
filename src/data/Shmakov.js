@@ -6,11 +6,13 @@ exports.frontmatter = {
     img: 'Shmakov.jpg',
     youtube: 'https://www.youtube.com/watch?v=4aiEf8n3b98',
     video_id: '4aiEf8n3b98',
-    places_for_map: {
-        name: 'Национальный академический драматический театр им. Якуба Коласа',
-        width: 55.193634,
-        length: 30.201480
-    },
+    places_for_map: [ 
+        {
+            name: 'Национальный академический драматический театр им. Якуба Коласа',
+            width: 55.193634,
+            length: 30.201480
+        },
+    ],
     place_of_birth: 'Петроград',
     description: '',
     timeline: [
