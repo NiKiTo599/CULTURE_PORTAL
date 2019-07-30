@@ -78,8 +78,24 @@ exports.frontmatter = {
     ],
     gallery: [
         {
-            img: '',
-            description: ''
-        }
+            img: 'pinigin_2.jpg',
+            description: '20 марта 2008 гость онлайн-конференции на TUT.BY'
+        },
+        {
+            img: 'pinigin_1.jpg',
+            description: 'Николай Николаевич Пинигин'
+        },
+        {
+            img: 'pinigin_3.jpg',
+            description: 'Cпектакль "Толерантность" 2018, режиссёр-постановщик - Николай Николаевич Пинигин'
+        },
+        {
+            img: 'pinigin_4.jpg',
+            description: 'На рабочем месте'
+        },
+        {
+            img: 'pinigin_5.jpg',
+            description: 'Национальный академический театр имени Янки Купалы'
+        },
     ]
 }
