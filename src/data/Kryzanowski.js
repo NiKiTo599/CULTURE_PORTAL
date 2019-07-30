@@ -8,8 +8,8 @@ exports.frontmatter = {
     places_for_map: [ 
         {
             name: 'Академический театр им. Янки Купалы',
-            width: '53.9009059',
-            length: '27.56275034479259'
+            width: 53.9009059,
+            length: 27.56275034479259
         },
     ],
     video_id: 'r6AJQHtIsYc',
