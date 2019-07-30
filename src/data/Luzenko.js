@@ -88,8 +88,24 @@ exports.frontmatter = {
     ],
     gallery: [
         {
-            img: '',
-            description: ''
-        }
+            img: 'luzenko_1.jpg',
+            description: 'Борис Иванович Луценко'
+        },
+        {
+            img: 'luzenko_2.jpg',
+            description: 'Место работы - Национального академического драматического театра имени М. Горького'
+        },
+        {
+            img: 'luzenko_3.jpg',
+            description: 'Сегодня Борису Луценко 82 года!'
+        },
+        {
+            img: 'luzenko_4.jpg',
+            description: 'Кадр из фильма «Раскиданное гнездо»'
+        },
+        {
+            img: 'luzenko_5.jpg',
+            description: 'Президент Республики Беларусь Александр Лукашенко вручает медаль Франциска Скорины режиссеру Борису Луценко'
+        },
     ]
 }

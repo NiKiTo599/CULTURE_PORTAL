@@ -62,8 +62,25 @@ exports.frontmatter = {
     ],
     gallery: [
         {
-            img: '',
-            description: ''
-        }
+            img: 'buslaeva_2.jpg',
+            description: '"Парфюмерша"(2013)'
+        },
+        {
+            img: 'buslaeva_3.jpg',
+            description: 'Буслаева Вероника Александровна'
+        },
+        {
+            img: 'buslaeva_1.jpg',
+            description: 'Премьера ее режиссерского дебюта «Все мыши любят цирк»'
+        },
+        {
+            img: 'buslaeva_4.jpg',
+            description: 'Белорусский государственный университет культуры и искусств'
+        },
+        {
+            img: 'buslaeva_5.jpg',
+            description: 'Республиканский театр белорусской драматургии'
+        },
+
     ]
 }
