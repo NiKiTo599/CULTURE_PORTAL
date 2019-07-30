@@ -15,9 +15,10 @@ export default class YoutubeComponent extends React.Component {
   }
 
   render() {
+    const { videoId } = this.props;
     return (
       <div>
-        <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId='L61p2uyiMSo' onClose={() => this.setState({isOpen: false})}/>
+        <ModalVideo channel='youtube' isOpen={this.state.isOpen} videoId={videoId} onClose={() => this.setState({isOpen: false})}/>
         <div onClick={this.openModal}>
           <h3>Watch the Video</h3>
         </div>

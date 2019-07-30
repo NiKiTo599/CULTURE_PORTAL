@@ -3,7 +3,7 @@ const path = require('path');
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
 
-  const athorPage = path.resolve('src/components/athorPage.js');
+  const authorPage = path.resolve('src/components/authorPage.js');
 
   return graphql(`{
       allJavascriptFrontmatter {
@@ -27,7 +27,7 @@ exports.createPages = ({ actions, graphql }) => {
           hash[node.frontmatter.path] = true;
           createPage({
             path: node.frontmatter.path,
-            component: athorPage,
+            component: authorPage,
           });
         }
       });
