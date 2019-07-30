@@ -1,13 +1,16 @@
 import React from "react"
 
-import YoutubeComponent from "./componentsForAuthorPage/YoutubeComponent"
+import YoutubeComponent from "./componentsForAuthorPage/YoutubeComponent";
+import MapComponent from './componentsForAuthorPage/MapComponent';
 
 const athorPage = ({ data }) => {
-  const infoOfAuthor = data.javascriptFrontmatter.frontmatter
+  console.log(data)
+  const infoOfAuthor = data.javascriptFrontmatter.frontmatter;
   return (
     <div>
       <h1>Hello, {infoOfAuthor.name}</h1>
       <YoutubeComponent videoId={infoOfAuthor.video_id} />
+      <MapComponent places={infoOfAuthor.places_for_map}/>
     </div>
   )
 }
@@ -21,6 +24,11 @@ export const postQuery = graphql`
         date
         img
         video_id
+        places_for_map {
+          name
+          width
+          length
+        }
         place_of_birth
         description
         timeline {
