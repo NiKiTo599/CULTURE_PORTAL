@@ -6,3 +6,12 @@ publish_mode: editorial_workflow
 
 media_folder: "static/images/uploads"
 public_folder: "/images/uploads"
+
+collections:
+  - name: 'directors'
+    label: 'Director'
+    folder: 'src/data'
+    create: true
+    fields:
+      - {label: 'Name', name: 'name', widget: 'string'}
+      - {label: 'Path for your page', name: 'path',}
