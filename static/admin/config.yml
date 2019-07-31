@@ -13,6 +13,7 @@ collections:
     folder: 'src/data'
     create: true
     identifier_field: id
+    format: js
     extension: js
     fields:
       - {label: 'Name', name: 'name', widget: 'string'}
