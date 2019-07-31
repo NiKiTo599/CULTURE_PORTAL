@@ -13,8 +13,8 @@ collections:
     folder: 'src/data'
     create: true
     identifier_field: id
-    format: js
-    extension: js
+    format: json
+    extension: json
     fields:
       - {label: 'Name', name: 'name', widget: 'string'}
       - {label: 'Path for your page', name: 'path',}
