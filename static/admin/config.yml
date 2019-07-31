@@ -1,6 +1,6 @@
 backend:
   name: git-gateway
-  branch: feature/netify_cms
+  branch: feature/netlify_cms
 
 publish_mode: editorial_workflow
 
