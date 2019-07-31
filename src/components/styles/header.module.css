@@ -4,6 +4,7 @@ nav {
     align-items: center;
     position: relative;
     height: 90px;
+    box-shadow: 0 0.2px 10px 0px #dee2e6;
 }
 
 h1 {
@@ -30,6 +31,7 @@ h1 {
 .navigation_bar {
     display: flex;
     list-style: none;
+    margin: 0;
 }
 
 .nav_item {
@@ -49,6 +51,7 @@ select:focus {
     color: #373737;
     border: none;
     margin-left: 10px;
+    margin-top: 2px;
 }
 
 .lang_select:hover {
@@ -67,4 +70,5 @@ select > option:hover {
 
 .nav_item:hover {
     color: #0072c9;
+    text-decoration: none;
 }
