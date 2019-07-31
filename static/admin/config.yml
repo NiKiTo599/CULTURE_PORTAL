@@ -12,6 +12,8 @@ collections:
     label: 'Director'
     folder: 'src/data'
     create: true
+    identifier_field: id
+    extension: js
     fields:
       - {label: 'Name', name: 'name', widget: 'string'}
       - {label: 'Path for your page', name: 'path',}
