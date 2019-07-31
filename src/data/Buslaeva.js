@@ -3,7 +3,7 @@ exports.frontmatter = {
     path: '/Buslaeva',
     name: 'Вероника Александровна Буслаева',
     date: '3 октября 1978',
-    img: 'Łarysa_Aleksandr.jpg',
+    img: 'Buslaeva.jpg',
     youtube: 'https://www.youtube.com/watch?v=icg14Eihosw',
     video_id: 'icg14Eihosw',
     places_for_map: [

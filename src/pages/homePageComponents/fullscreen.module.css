@@ -16,6 +16,7 @@
     display: flex;
     color: white;
     font-size: 3rem;
+    font-weight: 600;
     text-shadow: 0px 0px 16px rgba(11,5,3,0.97);
 }
 

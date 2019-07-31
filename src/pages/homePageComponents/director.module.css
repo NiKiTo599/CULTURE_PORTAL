@@ -22,22 +22,23 @@
 
 .content_container {
     display: flex;
+    height: 400px;
     width: 65%;
     box-shadow: 0 5px 15px rgba(0,0,0,0.08);
 }
 
 .image {
     height: 400px;
-    margin-bottom: -3px;
 }
 
 .text_container {
     padding: 40px;
+    overflow: auto;
 }
 
 .article_title {
     font-size: 36px;
-    margin: 10px 0px;
+    font-weight: 600;
 }
 
 .article_subtitle {

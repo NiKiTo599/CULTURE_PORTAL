@@ -1,0 +1,17 @@
+.author_header_container{
+    margin: 50px auto;
+}
+
+.author_title {
+    color: #ef454a;
+}
+
+.birth_date {
+    font-size: 24px;
+    color: #6c757d;
+}
+
+.author_description {
+    font-size: 20px;
+    font-weight: 400;
+}

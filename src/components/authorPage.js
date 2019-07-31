@@ -1,5 +1,8 @@
 import React from "react"
 
+import Layout from "../components/layout";
+import Title from './componentsForAuthorPage/title'
+import Timeline from './componentsForAuthorPage/timeline'
 import YoutubeComponent from "./componentsForAuthorPage/YoutubeComponent";
 import MapComponent from './componentsForAuthorPage/MapComponent';
 
@@ -7,11 +10,12 @@ const athorPage = ({ data }) => {
   console.log(data)
   const infoOfAuthor = data.javascriptFrontmatter.frontmatter;
   return (
-    <div>
-      <h1>Hello, {infoOfAuthor.name}</h1>
-      <YoutubeComponent videoId={infoOfAuthor.video_id} />
-      <MapComponent places={infoOfAuthor.places_for_map}/>
-    </div>
+      <Layout>
+        <Title { ...infoOfAuthor }/>
+        <Timeline { ...infoOfAuthor } />
+        <YoutubeComponent videoId={infoOfAuthor.video_id} />
+        <MapComponent places={infoOfAuthor.places_for_map}/>
+      </Layout>
   )
 }
 export default athorPage

@@ -11,13 +11,12 @@
 }
 
 .search-result a {
-    width: 50%;
     display: block;
     text-decoration: none;
     color: #373737;
     outline: none;
     cursor: pointer;
-    margin-top: 15px;
+    margin-top: 10px;
     padding: 5px;
 }
 
