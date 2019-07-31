@@ -8,6 +8,7 @@ module.exports = {
     description: 'Blazing fast modern site generator for React',
   },
   plugins: [
+    'gatsby-plugin-netlify-cms',
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-filesystem',
