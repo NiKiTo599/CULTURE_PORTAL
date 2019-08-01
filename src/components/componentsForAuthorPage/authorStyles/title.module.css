@@ -3,8 +3,18 @@
 }
 
 .author_title {
-    color: #ef454a;
+    color: #373737;
+    font-size: 40px;
+    font-weight: 600;
 }
+
+.author_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
 
 .birth_date {
     font-size: 24px;
@@ -14,4 +24,37 @@
 .author_description {
     font-size: 20px;
     font-weight: 400;
+}
+
+.author_image {
+    width: 300px;
+}
+
+.video_btn {
+    display: block;
+    color: white;
+    padding: 10px 20px;
+    background: #ef454a;
+    line-height: 1.5;
+    text-align: center;
+    transition: .1s ease-in-out;
+    transition-property: color, background-color, border-color, box-shadow;
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    border-radius: 2px;
+    text-decoration: none;
+}
+
+.video_btn:hover {
+    color: #fff;
+    background-color: #0072c9;
+}
+
+.video_btn:focus {
+    outline: none;
+}
+
+.video_icon {
+    margin-left: 10px;
 }

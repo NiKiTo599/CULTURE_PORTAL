@@ -1,9 +1,8 @@
 import React from "react"
-
 import Layout from "../components/layout";
 import Title from './componentsForAuthorPage/title'
 import Timeline from './componentsForAuthorPage/timeline'
-import YoutubeComponent from "./componentsForAuthorPage/YoutubeComponent";
+import Gallery from './componentsForAuthorPage/gallery'
 import MapComponent from './componentsForAuthorPage/MapComponent';
 
 const athorPage = ({ data }) => {
@@ -13,7 +12,7 @@ const athorPage = ({ data }) => {
       <Layout>
         <Title { ...infoOfAuthor }/>
         <Timeline { ...infoOfAuthor } />
-        <YoutubeComponent videoId={infoOfAuthor.video_id} />
+        <Gallery { ...infoOfAuthor } />
         <MapComponent places={infoOfAuthor.places_for_map}/>
       </Layout>
   )
