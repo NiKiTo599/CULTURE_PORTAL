@@ -1,11 +1,12 @@
 import React from 'react';
-import { Carousel } from 'react-bootstrap';
+import { Carousel, Container } from 'react-bootstrap';
+import GalleryStyle from './authorStyles/gallery.module.css';
 
 
 function renderSlides(authorInfo) {
     const photos = authorInfo.gallery;
     return photos.map((photo) =>
-        <Carousel.Item>
+        <Carousel.Item fade={false}>
             <img
                 className="d-block w-100"
                 src={require('../../data/images/gallery/'+photo.img)}
@@ -21,10 +22,11 @@ function renderSlides(authorInfo) {
 const Gallery = (authorInfo) => {
     const slides = renderSlides(authorInfo);
     return (
-        <div>
-            <Carousel>
-                { slides }
-            </Carousel>
+        <div className={GalleryStyle.container}>
+            <h3 className={GalleryStyle.gallery_title}>Фотогалерея</h3>
+                <Carousel>
+                    { slides }
+                </Carousel>
         </div>
     )
 }
