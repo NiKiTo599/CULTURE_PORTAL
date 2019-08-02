@@ -14,7 +14,7 @@ const Header = () => {
                             <img src={ logo } wight="30" height="30" alt="logo"/>
                         </Link>
                     </div>
-                    <h1>Theater directors of Belarus</h1>
+                    <h1 className={headerStyle.logo_text}>Theater directors of Belarus</h1>
                 </div>
                 <div className={ headerStyle.nav_right }>
                     <ul className={ headerStyle.navigation_bar }>
