@@ -90,7 +90,7 @@ exports.frontmatter = {
     ],
     gallery: [
         {
-            img: 'golubok_1.png',
+            img: 'galubok_1.png',
             description: 'Со дня рождения Владислава Голубка — 137 лет'
         },
         {
@@ -106,7 +106,7 @@ exports.frontmatter = {
             description: 'музей Гостиная Владислава Голубка г. Минск, ул. Старовиленская, 14 Троицкое предместье, набережная Свислочи'
         },
         {
-            img: 'golubok_5.jpg',
+            img: 'galubok_5.jpg',
             description: 'Исторические свидетельства жизненной и творческой деятельности В. Голубка'
         },
 

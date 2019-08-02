@@ -29,3 +29,25 @@
     margin-right: 15px;
     margin-top: 12px;
 }
+
+@media (max-width: 968px) {
+    .text_container {
+        top: 30%;
+    }
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .title::before {
+        height: 78px;
+        margin-top: 8px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .title {
+        font-size: 2rem;
+    }
+
+}

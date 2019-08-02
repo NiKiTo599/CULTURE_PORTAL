@@ -3,15 +3,16 @@ import Layout from "../components/layout";
 import Title from './componentsForAuthorPage/title'
 import Timeline from './componentsForAuthorPage/timeline'
 import Gallery from './componentsForAuthorPage/gallery'
+import AuthorWork from './componentsForAuthorPage/authorWork'
 import MapComponent from './componentsForAuthorPage/MapComponent';
 
 const athorPage = ({ data }) => {
-  console.log(data)
   const infoOfAuthor = data.javascriptFrontmatter.frontmatter;
   return (
       <Layout>
         <Title { ...infoOfAuthor }/>
         <Timeline { ...infoOfAuthor } />
+        <AuthorWork { ...infoOfAuthor } />
         <Gallery { ...infoOfAuthor } />
         <MapComponent places={infoOfAuthor.places_for_map}/>
       </Layout>
