@@ -13,6 +13,7 @@
     flex-direction: column;
     justify-content: center;
     height: 100%;
+    margin-left: 30px;
 }
 
 
@@ -27,7 +28,7 @@
 }
 
 .author_image {
-    width: 300px;
+    width: inherit;
 }
 
 .video_btn {
@@ -57,4 +58,14 @@
 
 .video_icon {
     margin-left: 10px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100% !important;
+    } 
+    .author_info {
+        margin-top: 20px;
+        margin-left: 0;
+    }
 }

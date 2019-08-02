@@ -8,12 +8,12 @@ const Title = (authorInfo) => {
         <div className={TitleStyle.author_header_container}>
             <Container>
             <Row>
-                <Col sm={4}>
+                <Col md={4}>
                     <img 
                         src={require('../../images/'+ authorInfo.img)} alt='authorInfo.name' className={TitleStyle.author_image}
                     />
                 </Col>
-                <Col sm={8}>
+                <Col md={8}>
                     <div className={TitleStyle.author_info} >
                         <h2 className={TitleStyle.author_title}>{authorInfo.name}</h2>
                         <p className={TitleStyle.birth_date}>{authorInfo.date}</p>

@@ -1,5 +1,6 @@
 import React from "react"
 import Layout from "../components/layout"
+import { Container } from 'react-bootstrap';
 import "./search.css"
 
 class Search extends React.Component {
@@ -33,7 +34,7 @@ class Search extends React.Component {
   render() {
     return (
       <Layout>
-        <div className="container">
+        <Container>
           <form action="">
             <input
               type="search"
@@ -53,7 +54,7 @@ class Search extends React.Component {
               </a>
             ))}
           </div>
-        </div>
+        </Container>
       </Layout>
     )
   }

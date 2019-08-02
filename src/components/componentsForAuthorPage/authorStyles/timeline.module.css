@@ -87,16 +87,17 @@
   
   .content {
     padding: 20px 30px;
-    background-color: #ef454a;
+    background-color: #f3f3f3;
     position: relative;
     border-radius: 6px;
-    color: white;
+    color: #343a40;
     font-family: 'Montserrat', sans-serif;
   }
 
   .date {
       font-size: 24px;
       font-weight: 600;
+      color: #ef454a;
   }
 
   .text {

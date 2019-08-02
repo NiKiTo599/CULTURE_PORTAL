@@ -11,3 +11,68 @@ body {
     color: #373737;
     font-size: 12px;
 }
+
+.w-100 {
+    width: auto !important;
+    min-height: -webkit-fill-available;
+}
+
+.carousel-inner {
+    height: 80vh;
+}
+
+.carousel-item.active, .carousel-item-next, .carousel-item-prev {
+    display: flex;
+    justify-content: center;
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #ef454a;
+    border: 8px solid #ef454a;
+    border-radius: 25px;
+    width: 40px;
+    height: 40px;
+}
+
+.carousel-control-prev, 
+.carousel-control-next {
+    width: 5%;
+}
+
+.carousel-indicators .active {
+    background-color: #ef454a;
+}
+
+.carousel-caption {
+    left: 25%;
+    margin-bottom: 20px;
+    width: 50%;
+}
+
+.row {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 100% !important;
+    } 
+
+    .carousel-inner {
+        height: 100vh;
+    }
+
+    .carousel-control-prev, 
+    .carousel-control-next {
+        display: none;
+    }
+
+    .carousel-caption {
+        left: 0;
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}
+
+
