@@ -1,5 +1,6 @@
 exports.frontmatter = {
     id: 5,
+    lng: 'ru',
     path: '/Luzenko',
     name: 'Борис Иванович Луценко',
     date: '16 сентября 1937',

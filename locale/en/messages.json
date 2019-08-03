@@ -2,7 +2,7 @@
   "Directors": "Theater directors of Belarus",
   "Catalog": "Catalog",
   "Home": "Home",
-  "Created": "Created by Olya, Katya, Nikita",
+  "Created": "Created by Olya, Katya, Nikita, Yauheni",
   "Web catalog": "Web catalog",
   "director": "Director",
   "day": "of the day",
@@ -15,8 +15,10 @@
   "Mikita": "Mikita Akulich",
   "Volha": "Volha Hrakholskaya",
   "Katsiaryna": "Katsiaryna Staurova",
+  "Yauheni": "Yauheni Yakimchuk",
   "search": "Start Your search...",
   "timeline title": "Curriculum vitae",
-  "video": "Watch the Video"
+  "video": "Watch the Video",
+  "photo": "Photo gallery"
   
 }

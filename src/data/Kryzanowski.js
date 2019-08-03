@@ -1,5 +1,6 @@
 exports.frontmatter = {
     id: 4,
+    lng: 'ru',
     path: '/Kryzanowski',
     name: 'Евгений Анатольевич Крыжановский',
     date: '6 июня 1955',

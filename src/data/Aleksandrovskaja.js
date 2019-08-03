@@ -1,5 +1,6 @@
 exports.frontmatter = {
     id: 1,
+    lng: 'ru',
     path: '/Aleksandrovskaja',
     name: 'Лариса Помпеевна Александровская',
     date: '2 (15) февраля 1902',
