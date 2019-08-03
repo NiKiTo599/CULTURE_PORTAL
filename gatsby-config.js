@@ -29,6 +29,21 @@ module.exports = {
     'gatsby-transformer-javascript-frontmatter',
     'gatsby-plugin-sharp',
     {
+      resolve: `gatsby-plugin-i18next`,
+      options: {
+        availableLngs: ['en', 'ru', 'by'],
+        fallbackLng: 'en',
+        debug: true,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/locale`,
+        name: `locale`,
+      },
+    },
+    {
       resolve: 'gatsby-plugin-manifest',
       options: {
         name: 'gatsby-starter-default',

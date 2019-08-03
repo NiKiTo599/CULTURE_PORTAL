@@ -3,6 +3,7 @@ import { Link } from 'gatsby';
 import headerStyle from './styles/header.module.css';
 import logo from '../data/images/theatre-column.png';
 
+import Switcher from './Switcher';
 
 const Header = () => {
     return (
@@ -25,11 +26,7 @@ const Header = () => {
                             <Link to='/search' className={ headerStyle.nav_item }>Сatalog</Link>
                         </li>
                         <li>
-                            <select className={ headerStyle.lang_select }>
-                                <option>EN</option>
-                                <option>BY</option>
-                                <option>RU</option>
-                            </select>
+                            <Switcher />
                         </li>
                     </ul>  
                 </div>
