@@ -3,7 +3,7 @@ import { Link } from 'gatsby-plugin-i18next';
 import headerStyle from './styles/header.module.css';
 import logo from '../data/images/theatre-column.png';
 
-import Switcher from './switcher';
+import Switcher from './Switcher';
 
 const Header = ({ siteTitle, linkHome, linkCatalog }) => (
   <header>
