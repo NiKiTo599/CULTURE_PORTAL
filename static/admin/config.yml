@@ -1,0 +1,55 @@
+backend:
+  name: git-gateway
+  branch: netlify
+publish_mode: editorial_workflow
+
+media_folder: "static/images/uploads"
+public_folder: "/images/uploads"
+
+collections:
+  - name: 'directors'
+    label: 'Director'
+    folder: 'src/data'
+    create: true
+    identifier_field: id
+    format: json
+    extension: json
+    fields:
+      - {label: 'Name of director', name: 'name', widget: 'string'}
+      - {label: 'Path for your page', name: 'path', widget: 'string'}
+      - {label: 'Data of birth', name: 'date', widget: 'string'}
+      - {label: 'Image of director', name: 'img', widget: image}
+      - {label: 'Video id of youtube', name: 'video_id', widget: 'string'}
+      - {label: 'Place of birth', name: 'place_of_birth', widget: 'string'}
+      - {label: 'Description', name: 'description', widget: 'string'}
+      - label: 'Timeline'
+        name: 'timeline'
+        widget: 'list'
+        fields: 
+          - label: 'Date'
+            name: 'date'
+            widget: 'string'
+          - label: 'Description'
+            name: 'text'
+            widget: 'string'
+      - label: 'Works'
+        name: 'works'
+        widget: 'list'
+        fields: 
+          - label: 'Kind of work'
+            name: 'subject'
+            widget: 'string'
+          - label: 'Name of Work'
+            name: 'names'
+            widget: 'list'
+      - label: 'Gallery'
+        name: 'gallery'
+        widget: 'list'
+        fields: 
+          - label: 'Image for gallery'
+            name: 'img'
+            widget: image
+          - label: 'Description'
+            name: 'description'
+            widget: 'string'
+      

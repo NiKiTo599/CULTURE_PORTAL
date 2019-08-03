@@ -8,6 +8,7 @@ module.exports = {
     description: 'Blazing fast modern site generator for React',
   },
   plugins: [
+    "gatsby-plugin-netlify-cms",
     'gatsby-plugin-react-helmet',
     {
       resolve: 'gatsby-source-filesystem',
@@ -28,6 +29,7 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-transformer-javascript-frontmatter',
     'gatsby-plugin-sharp',
+    "gatsby-transformer-json"
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
