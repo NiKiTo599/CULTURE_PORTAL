@@ -1,5 +1,6 @@
 exports.frontmatter = {
     id: 7,
+    lng: 'ru',
     path: '/Shmakov',
     name: 'Фёдор Иванович Шмаков',
     date: '16 февраля (1 марта) 1917',

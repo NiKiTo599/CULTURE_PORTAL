@@ -1,5 +1,6 @@
 exports.frontmatter = {
     id: 2,
+    lng: 'ru',
     path: '/Buslaeva',
     name: 'Вероника Александровна Буслаева',
     date: '3 октября 1978',
@@ -74,6 +75,10 @@ exports.frontmatter = {
         {
             img: 'buslaeva_1.jpg',
             description: 'Премьера ее режиссерского дебюта «Все мыши любят цирк»'
+        },
+        {
+            img: 'buslaeva_4.jpeg',
+            description: 'Белорусский государственный университет культуры и искусств'
         },
         {
             img: 'buslaeva_5.jpg',

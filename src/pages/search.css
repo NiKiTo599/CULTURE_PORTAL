@@ -1,8 +1,13 @@
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
 
 .search-result {
     margin-top: 100px;
+    margin-left: 30%;
     font-size: 20px;
-    text-align: center;
 }
 
 .search-result a {

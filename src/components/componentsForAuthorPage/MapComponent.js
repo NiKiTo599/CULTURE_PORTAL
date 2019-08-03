@@ -3,7 +3,6 @@ import idGenerator from 'react-id-generator';
 import './MapComponent.css';
 
 let MapOfPlaces, TileLayer, Marker, Popup
-
 export default class MapComponent extends React.Component {
 
   componentDidMount() {
@@ -26,7 +25,7 @@ export default class MapComponent extends React.Component {
   ));
     console.log(places[0].width)
     return (
-      <Map
+      <MapOfPlaces
         center={[places[0].width, places[0].length]}
         bounds={[[places[0].width, places[0].length]]}
         zoom={6}
@@ -41,7 +40,7 @@ export default class MapComponent extends React.Component {
       >
         <TileLayer url="https://tile.openstreetmap.org/{z}/{x}/{y}.png"/>
         {markers}
-      </Map>
+      </MapOfPlaces>
     )
   }
 }
