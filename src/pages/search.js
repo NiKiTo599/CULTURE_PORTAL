@@ -11,8 +11,8 @@ class Search extends React.Component {
       searchTerm: "",
     }
     this.state.searchResult = []
-    if (this.data.allJavascriptFrontmatter)
-      this.state.allItems = this.data.allJavascriptFrontmatter.edges
+    if (this.data.allFile)
+      this.state.allItems = this.data.allFile.edges
     else this.state.allItems = []
     this.onChange = this.onChange.bind(this)
   }
@@ -22,8 +22,8 @@ class Search extends React.Component {
     this.setState({ searchTerm: value })
     if (value !== "") {
       searchRes = this.state.allItems.filter(item => {
-        return item.node.frontmatter.name
-          .concat(item.node.frontmatter.place_of_birth)
+        return item.node.childDataJson.name
+          .concat(item.node.childDataJson.place_of_birth)
           .toLowerCase()
           .includes(value.toLowerCase())
       })
@@ -47,10 +47,10 @@ class Search extends React.Component {
           <div className="search-result">
             {this.state.searchResult.map(item => (
               <a
-                key={item.node.frontmatter.id}
-                href={item.node.frontmatter.path}
+                key={item.node.childDataJson.id}
+                href={item.node.childDataJson.path}
               >
-                {item.node.frontmatter.name}
+                {item.node.childDataJson.name}
               </a>
             ))}
           </div>
@@ -64,16 +64,12 @@ export default Search
 
 export const queryResult = graphql`
   query MyQuery {
-    allJavascriptFrontmatter {
+    allFile(filter: {extension: {eq: "json"}}) {
       edges {
         node {
-          id
-          frontmatter {
-            id
+          childDataJson {
             name
-            date
             path
-            place_of_birth
           }
         }
       }
