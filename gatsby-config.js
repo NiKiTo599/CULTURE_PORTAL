@@ -29,7 +29,7 @@ module.exports = {
     'gatsby-transformer-sharp',
     'gatsby-transformer-javascript-frontmatter',
     'gatsby-plugin-sharp',
-    "gatsby-transformer-json"
+    "gatsby-transformer-json",
     {
       resolve: 'gatsby-plugin-manifest',
       options: {
