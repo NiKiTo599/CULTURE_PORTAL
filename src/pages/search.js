@@ -63,16 +63,12 @@ export default Search
 
 export const queryResult = graphql`
   query MyQuery {
-    allJavascriptFrontmatter {
+    allFile(filter: {extension: {eq: "json"}}) {
       edges {
         node {
-          id
-          frontmatter {
-            id
+          childDataJson {
             name
-            date
             path
-            place_of_birth
           }
         }
       }
