@@ -2,10 +2,10 @@ import React from 'react'
 
 import footerStyle from './styles/footer.module.css';
 
-const Footer = () => {
+const Footer = ({create}) => {
     return (
         <footer>
-            <p className={footerStyle.footer_text}>Created by Olya, Katya, Nikita, Jenya</p>
+            <p className={footerStyle.footer_text}>{create}</p>
         </footer>
     )
 }

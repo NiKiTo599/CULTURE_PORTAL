@@ -1,5 +1,6 @@
 exports.frontmatter = {
     id: 3,
+    lng: 'ru',
     path: '/Golubok',
     name: 'Владислав Иосифович Голубок',
     date: '3 (15) мая 1882',
@@ -90,7 +91,7 @@ exports.frontmatter = {
     ],
     gallery: [
         {
-            img: 'galubok_1.png',
+            img: 'golubok_1.png',
             description: 'Со дня рождения Владислава Голубка — 137 лет'
         },
         {
@@ -106,7 +107,7 @@ exports.frontmatter = {
             description: 'музей Гостиная Владислава Голубка г. Минск, ул. Старовиленская, 14 Троицкое предместье, набережная Свислочи'
         },
         {
-            img: 'galubok_5.jpg',
+            img: 'golubok_5.jpg',
             description: 'Исторические свидетельства жизненной и творческой деятельности В. Голубка'
         },
 

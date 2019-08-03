@@ -1,4 +1,5 @@
 import React from 'react';
+import { I18n } from 'react-i18next';
 import { Carousel, Container } from 'react-bootstrap';
 import GalleryStyle from './authorStyles/gallery.module.css';
 
@@ -22,13 +23,24 @@ function renderSlides(authorInfo) {
 const Gallery = (authorInfo) => {
     const slides = renderSlides(authorInfo);
     return (
-        <div className={GalleryStyle.container}>
-            <h3 className={GalleryStyle.gallery_title}>Фотогалерея</h3>
-                <Carousel>
-                    { slides }
-                </Carousel>
-        </div>
+        <I18n>
+            {t => (
+                <div className={GalleryStyle.container}>
+                    <h3 className={GalleryStyle.gallery_title}>{t('photo')}</h3>
+                        <Carousel>
+                            { slides }
+                        </Carousel>
+                </div>
+             )}
+        </I18n>
     )
 }
 
 export default Gallery
+export const query = graphql`
+  query($lng: String!) {
+    locales: allLocale(filter: { lng: { eq: $lng }, ns: { eq: "messages" } }) {
+      ...TranslationFragment
+    }
+  }
+`;

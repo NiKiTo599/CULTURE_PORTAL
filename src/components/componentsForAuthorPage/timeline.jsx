@@ -1,5 +1,6 @@
 import React from 'react';
 import TimelineStyle from './authorStyles/timeline.module.css';
+import { I18n } from 'react-i18next';
 
 function renderTimeline(times) {
     return times.map((time) =>
@@ -23,13 +24,24 @@ function renderTimeline(times) {
 const Timeline = (authorInfo) => {
     const biographyTimeline = renderTimeline(authorInfo.timeline);
     return (
-        <div>
-            <h3 className={TimelineStyle.timeline_title}>Краткая биография</h3>
-            <div className={TimelineStyle.timeline}>
-               { biographyTimeline }
-            </div>
-        </div>
+        <I18n>
+            {t => (
+                <div>
+                    <h3 className={TimelineStyle.timeline_title}>{t('timeline title')}</h3>
+                    <div className={TimelineStyle.timeline}>
+                    { biographyTimeline }
+                    </div>
+                </div>
+            )}
+        </I18n>
     )
 }
 
 export default Timeline
+export const query = graphql`
+  query($lng: String!) {
+    locales: allLocale(filter: { lng: { eq: $lng }, ns: { eq: "messages" } }) {
+      ...TranslationFragment
+    }
+  }
+`;

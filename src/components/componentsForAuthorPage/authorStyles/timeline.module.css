@@ -1,132 +1,132 @@
 
-  .timeline {
-    position: relative;
-    max-width: 1200px;
-    margin: 60px auto;
-  }
+ .timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 60px auto;
+}
 
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: #ef454a;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+.timeline_title{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 800;
+  padding: 60px;
+  background-color: #f3f3f3;
+  border-top: 1px solid #dee2e6;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.container {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+.container::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -12px;
+  background-color: white;
+  border: 4px solid #ef454a;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  left: 50%;
+}
+
+.left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+.right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+.right::after {
+  left: -13px;
+}
+
+.content {
+  padding: 20px 30px;
+  background-color: #f3f3f3;
+  position: relative;
+  border-radius: 6px;
+  color: #343a40;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.date {
+    font-size: 24px;
+    font-weight: 600;
+    color: #ef454a;
+}
+
+.text {
+    font-size: 16px;
+}
+
+@media screen and (max-width: 600px) {
   .timeline::after {
-    content: '';
-    position: absolute;
-    width: 6px;
-    background-color: #ef454a;
-    top: 0;
-    bottom: 0;
-    left: 50%;
-    margin-left: -3px;
+  left: 31px;
   }
   
-  .timeline_title{
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 40px;
-    font-weight: 800;
-    padding: 60px;
-    background-color: #f3f3f3;
-    border-top: 1px solid #dee2e6;
-    border-bottom: 1px solid #dee2e6;
+  .container {
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 25px;
+  }
+  
+  .container::before {
+  left: 60px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
   }
 
-  .container {
-    padding: 10px 40px;
-    position: relative;
-    background-color: inherit;
-    width: 50%;
-  }
-  
-  .container::after {
-    content: '';
-    position: absolute;
-    width: 25px;
-    height: 25px;
-    right: -12px;
-    background-color: white;
-    border: 4px solid #ef454a;
-    top: 15px;
-    border-radius: 50%;
-    z-index: 1;
-  }
-  
-  .left {
-    left: 0;
+  .left::after, .right::after {
+      left: 18px;
   }
   
   .right {
-    left: 50%;
+  left: 0%;
   }
-
-  .left::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    right: 30px;
-    border: medium solid white;
-    border-width: 10px 0 10px 10px;
-    border-color: transparent transparent transparent white;
-  }
-
-  .right::before {
-    content: " ";
-    height: 0;
-    position: absolute;
-    top: 22px;
-    width: 0;
-    z-index: 1;
-    left: 30px;
-    border: medium solid white;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
-  }
-  
-  .right::after {
-    left: -13px;
-  }
-  
-  .content {
-    padding: 20px 30px;
-    background-color: #f3f3f3;
-    position: relative;
-    border-radius: 6px;
-    color: #343a40;
-    font-family: 'Montserrat', sans-serif;
-  }
-
-  .date {
-      font-size: 24px;
-      font-weight: 600;
-      color: #ef454a;
-  }
-
-  .text {
-      font-size: 16px;
-  }
-  
-  @media screen and (max-width: 600px) {
-    .timeline::after {
-    left: 31px;
-    }
-    
-    .container {
-    width: 100%;
-    padding-left: 70px;
-    padding-right: 25px;
-    }
-    
-    .container::before {
-    left: 60px;
-    border: medium solid white;
-    border-width: 10px 10px 10px 0;
-    border-color: transparent white transparent transparent;
-    }
-  
-    .left::after, .right::after {
-        left: 18px;
-    }
-    
-    .right {
-    left: 0%;
-    }
-  }
+}

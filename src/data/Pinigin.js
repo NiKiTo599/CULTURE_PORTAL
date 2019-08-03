@@ -1,5 +1,6 @@
 exports.frontmatter = {
     id: 6,
+    lng: 'ru',
     path: '/Pinigin',
     name: 'Николай Николаевич Пинигин',
     date: '6 августа 1957',
