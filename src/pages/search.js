@@ -73,7 +73,7 @@ query($lng: String!) {
   locales: allLocale(filter: { lng: { eq: $lng }, ns: { eq: "messages" } }) {
     ...TranslationFragment
   }
-  allFile(filter: {extension: {eq: "json"}}) {
+  allFile(filter: {extension: {eq: "json"} relativeDirectory: {eq: ""}}) {
     edges {
       node {
         childDataJson {

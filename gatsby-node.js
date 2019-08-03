@@ -13,7 +13,7 @@ exports.createPages = ({ actions, graphql }) => {
   const authorPage = path.resolve('src/components/authorPage.js');
 
   return graphql(`query IndexQuery {
-    allFile(filter: {extension: {eq: "json"}}) {
+    allFile(filter: {extension: {eq: "json"} relativeDirectory: {eq: ""}}) {
       edges {
         node {
           childDataJson {

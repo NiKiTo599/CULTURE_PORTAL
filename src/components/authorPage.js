@@ -11,6 +11,7 @@ import Gallery from "./componentsForAuthorPage/gallery";
 import AuthorWork from "./componentsForAuthorPage/authorWork";
 
 const athorPage = ({ data }) => {
+  console.log(data);
   const infoOfAuthor = data.allFile.edges[0].node.childDataJson;
   console.log(infoOfAuthor);
   return (
@@ -28,12 +29,13 @@ const athorPage = ({ data }) => {
   );
 };
 export default withI18next()(athorPage);
+
 export const postQuery = graphql`
-  query($lng: String!, $path: String!) {
+  query($lng: String!, $originalPath: String!) {
     locales: allLocale(filter: { lng: { eq: $lng }, ns: { eq: "messages" } }) {
       ...TranslationFragment
     }
-    allFile(filter: { childDataJson: { path: { eq: $path } } }) {
+    allFile(filter: { childDataJson: { path: { eq: $originalPath } } }) {
       edges {
         node {
           childDataJson {
@@ -55,6 +57,11 @@ export const postQuery = graphql`
             gallery {
               img
               description
+            }
+            places_for_map {
+              name
+              width
+              length
             }
           }
         }
