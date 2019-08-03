@@ -1,10 +1,13 @@
-import React from "react"
-import Layout from "../components/layout"
-import { Container } from 'react-bootstrap';
+import React from 'react';
+import { graphql } from 'gatsby';
+import { I18n } from 'react-i18next';
+import { withI18next } from 'gatsby-plugin-i18next';
+
+import Layout from '../components/layout';
 import "./search.css"
 
 class Search extends React.Component {
-  constructor({ data }) {
+  constructor({ data, t }) {
     super({ data })
     this.data = data
     this.state = {
@@ -32,13 +35,14 @@ class Search extends React.Component {
     console.log("val " + value)
   }
   render() {
-    return (
+    return <I18n>
+    {t => (
       <Layout>
-        <Container>
+        <div className="container">
           <form action="">
             <input
               type="search"
-              placeholder="Begin your search..."
+              placeholder= {t('search')}
               value={this.state.searchTerm}
               onChange={this.onChange}
             />
@@ -54,29 +58,34 @@ class Search extends React.Component {
               </a>
             ))}
           </div>
-        </Container>
+        </div>
+        
       </Layout>
-    )
+    )}
+  </I18n>
   }
 }
 
-export default Search
+export default withI18next()(Search);
 
-export const queryResult = graphql`
-  query MyQuery {
-    allJavascriptFrontmatter {
-      edges {
-        node {
+export const query = graphql`
+query($lng: String!) {
+  locales: allLocale(filter: { lng: { eq: $lng }, ns: { eq: "messages" } }) {
+    ...TranslationFragment
+  }
+  allJavascriptFrontmatter(filter: { frontmatter: { lng: { eq: $lng } } }) {
+    edges {
+      node {
+        id
+        frontmatter {
           id
-          frontmatter {
-            id
-            name
-            date
-            path
-            place_of_birth
-          }
+          name
+          date
+          path
+          place_of_birth
         }
       }
     }
   }
+}
 `
