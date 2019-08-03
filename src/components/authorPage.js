@@ -7,14 +7,15 @@ import AuthorWork from "./componentsForAuthorPage/authorWork"
 import MapComponent from "./componentsForAuthorPage/MapComponent"
 
 const athorPage = ({ data }) => {
-  const infoOfAuthor = data.allFile.edges[0].node;
+  const infoOfAuthor = data.allFile.edges[0].node.childDataJson;
+  console.log(infoOfAuthor)
   return (
     <Layout>
       <Title {...infoOfAuthor} />
       <Timeline {...infoOfAuthor} />
       <AuthorWork {...infoOfAuthor} />
       <Gallery {...infoOfAuthor} />
-      <MapComponent places={infoOfAuthor.places_for_map} />
+      {/* <MapComponent places={infoOfAuthor.places_for_map} /> */}
     </Layout>
   )
 }
@@ -31,11 +32,6 @@ export const postQuery = graphql`
             date
             img
             video_id
-            places_for_map {
-              name
-              width
-              length
-            }
             place_of_birth
             description
             timeline {
@@ -56,3 +52,8 @@ export const postQuery = graphql`
     }
   }
 `
+/* places_for_map {
+  name
+  width
+  length
+} */

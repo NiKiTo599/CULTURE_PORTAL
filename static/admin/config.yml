@@ -3,8 +3,7 @@ backend:
   branch: netlify
 publish_mode: editorial_workflow
 
-media_folder: "static/images/uploads"
-public_folder: "/images/uploads"
+media_folder: "src/images"
 
 collections:
   - name: 'directors'
@@ -52,4 +51,18 @@ collections:
           - label: 'Description'
             name: 'description'
             widget: 'string'
+      - label: 'Places of director'
+        name: 'places_for_map'
+        widget: 'list'
+        fields:
+          - label: 'Name of place'
+            name: 'name'
+            widget: 'string'
+          - label: 'Width of place'
+            name: 'width'
+            widget: 'string'
+          - label: 'Length of place'
+            name: 'length'
+            widget: 'string'
+          
       

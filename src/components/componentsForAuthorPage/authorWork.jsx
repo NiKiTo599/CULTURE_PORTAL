@@ -22,6 +22,7 @@ const renderTable = (work) => {
 }
 
 const renderWork = (authorInfo) => {
+    console.log(authorInfo)
     return (authorInfo.works.length > 1) ?
         (authorInfo.works.map((work) => (
             <div>
