@@ -52,8 +52,3 @@ export const postQuery = graphql`
     }
   }
 `
-/* places_for_map {
-  name
-  width
-  length
-} */
