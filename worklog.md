@@ -41,11 +41,14 @@ Jun 01 | Jun 02 | 4 h | make translation of the author page
 Jun 02 | Jun 03 | 1 h | change graphql request in all files
 Jun 30 | Jun 03 | 2 h | finish work with netlify
 Jun 01 | Jun 03 | 4 h | fix data files
-Jun 01 | Jun 03 | 3 h | delete js files in the data folder
+Jun 01 | Jun 03 | 1 h | converting js files to json format
+Jun 01 | Jun 03 | 10 m | delete js files in the data folder
 Jun 03 | Jun 03 | 2 h | fixing bugs with build
 Jun 03 | Jun 03 | 0.5 h | fix branch in config yml
 Jun 03 | Jun 03 | 2 h | fix bugs with merge
 Jun 03 | Jun 03 | 3 h | merge translate to netlify and resolve conflicts
+Jun 04 | Jun 04 | 1.5 h |fix styles of the main page
+Jun 04 | Jun 04 | 1 h | fix concole.logs in files
 Jun 04 | Jun 04 | 3 h | testing netlify
 
 # jarolika30 #
@@ -109,6 +112,16 @@ Time spend | feature |
 1 h | add author works component
 4 h | make adaptive header and team component
 2 h | final fixes
+
+# yakGjen #
+
+Time spend | feature | 
+:-----------:|:----------:|
+4 h | fix data files
+1 h | converting js files to json format
+10 m | delete js files in the data folder
+1.5 h | fix styles of the main page
+1 h | fix concole.logs in files
 
 # Self сheck #
 
