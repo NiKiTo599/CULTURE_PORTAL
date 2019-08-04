@@ -2,7 +2,7 @@
 
 Start time | End time | time spent | feature
 :-----------:|:----------:|:------------:|:---------:
-Jun 25 | Jun 25 | 3 h | base structure and configuration of the project
+Jun 25 | Jun 25 | 1 h | base structure and configuration of the project
 Jun 25 | Jun 25 | 2 h | make a gatsby-config
 Jun 25 | Jun 25 | 1 h | fixing bugs with gatsby
 Jun 25 | Jun 25 | 20 m | add search page
@@ -22,9 +22,9 @@ Jun 28 | Jun 29 | 4 h | add YoutubeComponent
 Jun 28 | Jun 29 | 4 h | createPage of authors
 Jun 28 | Jun 29 | 3 h | prepare text for the author page
 Jun 28 | Jun 29 | 2 h | add data for map component
-Jun 28 | Jun 29 | 3 h | add  YoutubeComponent to AuthorPage
+Jun 28 | Jun 29 | 1 h | add  YoutubeComponent to AuthorPage
 Jun 29 | Jun 29 | 3 h | add images for gallery component
-Jun 29 | Jun 29 | 4 h | add MapComponent
+Jun 29 | Jun 29 | 2 h | add MapComponent
 Jun 29 | Jun 30 | 1 h | add bootstrap
 Jun 29 | Jun 30 | 3 h | made style changes after bootstrap install
 Jun 29 | Jun 30 | 3 h | add title and timeline for author page
@@ -32,19 +32,21 @@ Jun 29 | Jun 30 | 3 h | add video overlay style
 Jun 29 | Jun 30 | 2 h | add gallery to author page
 Jun 30 | Jun 30 | 1 h | add author works component
 Jun 30 | Jun 01 | 4 h | make adaptive header and team component
-Jun 30 | Jun 01 | 1 h | add settings for netlify
+Jun 30 | Jun 01 | 3 h | add settings for netlify
 Jun 30 | Jun 01 | 3 h | add switcher of language
 Jun 01 | Jun 02 | 3 h | add settings for netlify, fix bugs with building site
 Jun 01 | Jun 02 | 2 h | make translation of the footer, header, layout components
 Jun 01 | Jun 02 | 2 h | make translation of the index and search pages
 Jun 01 | Jun 02 | 4 h | make translation of the author page
-Jun 02 | Jun 03 | 2 h | change graphql request in all files
-Jun 30 | Jun 03 | 8 h | finish work with netlify
+Jun 02 | Jun 03 | 1 h | change graphql request in all files
+Jun 30 | Jun 03 | 2 h | finish work with netlify
 Jun 01 | Jun 03 | 4 h | fix data files
 Jun 01 | Jun 03 | 3 h | delete js files in the data folder
 Jun 03 | Jun 03 | 2 h | fixing bugs with build
-Jun 03 | Jun 03 | 2 h | fix branch in config yml
+Jun 03 | Jun 03 | 0.5 h | fix branch in config yml
 Jun 03 | Jun 03 | 2 h | fix bugs with merge
+Jun 03 | Jun 03 | 3 h | merge translate to netlify and resolve conflicts
+Jun 04 | Jun 04 | 3 h | testing netlify
 
 # jarolika30 #
 
@@ -53,3 +55,25 @@ Time spend | feature |
 6 h | make search component |
 16 h | prepare data and images |
 20 h | install i18next and implement translation |
+
+# NiKiTo599 #
+
+Time spend | feature | 
+:-----------:|:----------:|
+1 h | base structure and configuration of the project |
+2 h | make a gatsby-config |
+1 h | fixing bugs with gatsby |
+0.1 h | add layout to a search |
+4 h | add YoutubeComponent |
+4 h | createPage of authors |
+1 h | add YoutubeComponent to AuthorPage |
+2 h | add MapComponent |
+3 h | add settings for netlify |
+3 h | add settings for netlify, fix bugs with building site |
+1 h | change graphql request in all files |
+2 h | finish work with netlify |
+2 h | fixing bugs with build |
+0.5 h | fix branch in config yml |
+2 h | fix bugs with merge |
+3 h | merge translate to netlify and resolve conflicts |
+3 h | testing netlify |
