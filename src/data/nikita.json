@@ -31,6 +31,13 @@
       "description": "йуйцвапро"
     }
   ],
+  "places_for_map": [
+    {
+      "name": "fghjkl",
+      "width": "56",
+      "length": "87"
+    }
+  ],
   "description": "белорусский режиссёр, заслуженный деятель искусств Республики Беларусь",
   "video_id": "lexVZsR-GF0"
 }
