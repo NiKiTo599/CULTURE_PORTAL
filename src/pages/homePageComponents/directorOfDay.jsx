@@ -17,7 +17,7 @@ const DirectorOfDay = ({ titlePartOne, titlePartTwo, person, more, about, period
                     <p className={directorStyle.article_subtitle}>{ period }</p>
                     <p className={directorStyle.article_description}>{ about }</p>
                     <p className={directorStyle.article_description}>{ work }</p>
-                    <Link className={directorStyle.button} to='/'>{ more } >></Link>
+                    <Link className={directorStyle.button} to='/Buynitsky'>{ more } >></Link>
                 </div>
             </div>
         </div>
