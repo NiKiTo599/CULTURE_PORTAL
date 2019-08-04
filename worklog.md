@@ -14,9 +14,9 @@ Jun 26 | Jun 28 | 5 h | prepare and add data about theater directors
 Jun 27 | Jun 28 | 1 h | create search page markup
 Jun 26 | Jun 28 | 4 h | implement search input component
 Jun 26 | Jun 28 | 4 h | implement search input component
-Jun 25 | Jun 28 | 2 h | add styles for footer, layout
+Jun 25 | Jun 28 | 6 h | add styles for footer, layout
 Jun 26 | Jun 28 | 2 h | add homepage with fullscreen component
-Jun 26 | Jun 28 | 5 h | add director and team component to homepage
+Jun 26 | Jun 28 | 3 h | add director and team component to homepage
 Jun 27 | Jun 28 | 2 h | add layout to a search
 Jun 28 | Jun 29 | 4 h | add YoutubeComponent
 Jun 28 | Jun 29 | 4 h | createPage of authors

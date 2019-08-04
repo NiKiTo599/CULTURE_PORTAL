@@ -32,7 +32,6 @@ class Search extends React.Component {
       })
     }
     this.setState({ searchResult: searchRes })
-    console.log("val " + value)
   }
   render() {
     return <I18n>

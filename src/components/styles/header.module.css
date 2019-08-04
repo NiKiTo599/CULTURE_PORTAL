@@ -102,8 +102,16 @@ select > option:hover {
         font-size: 20px;
         margin-top: 4px;
     }
+}
+
+@media (max-width: 520px) {
+    nav {
+        height: auto;
+        padding: 10px 5px;
+        box-sizing: border-box;
+    }
 
     .navigation_bar {
-        padding-left: 0;
+        padding: 0;
     }
 }

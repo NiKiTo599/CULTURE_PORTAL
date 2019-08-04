@@ -50,6 +50,12 @@
         font-size: 2rem;
     }
 
+}
+
+@media (max-width: 425px) {
+    .title {
+        font-size: 1.5rem;
+    }
     .container {
         height: 80vh; 
     }
@@ -60,5 +66,4 @@
         left: -20%;
         position: relative;
     }
-
 }
