@@ -116,7 +116,9 @@ Time spend | feature |
 
 2. End date - 04.08.2019 / 21.30
 
-3. Total
+3. Group № 30, Topic - Theater directors of Belarus
+
+4. Total
 
 * Min scope - **40**
 
@@ -141,4 +143,4 @@ Time spend | feature |
 **+** Netlify cms is used for content management,
 **+** Portal has third language
 
-4. Mark: 40 + 130 + 70 = 240
+5. Mark: 40 + 130 + 70 = 240
