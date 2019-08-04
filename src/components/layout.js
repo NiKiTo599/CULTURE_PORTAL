@@ -6,6 +6,7 @@ import { Head } from 'gatsby-plugin-i18next';
 import Header from './header';
 import Footer from './footer';
 import layoutStyles from './styles/layout.module.css';
+import '../styles/style.css';
 
 const Layout = ({ children, data, t }) => (
   <div className={layoutStyles.wrapper}>

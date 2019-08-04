@@ -14,7 +14,7 @@ const Header = ({ siteTitle, linkHome, linkCatalog }) => (
                     <img src={ logo } wight="30" height="30" alt="logo"/>
                 </Link>
             </div>
-            <h1>{siteTitle}</h1>
+            <h1 className={headerStyle.logo_text}>{siteTitle}</h1>
         </div>
             <div className={ headerStyle.nav_right }>
                 <ul className={ headerStyle.navigation_bar }>
