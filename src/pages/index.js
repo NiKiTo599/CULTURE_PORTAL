@@ -14,7 +14,7 @@ const IndexPage = () => (
       <Layout>
         <Fullscreen titleFullscreen={t('Theater Directors of Belarus')} web={t('Web catalog')}/>
         <DirectorOfDay titlePartOne={t('director')} titlePartTwo={t('day')} person={t('Ignat Buynitsky')} more={t('more')} about={t('about')} period={t('years of life')} work={t('work')}/>
-        <Team number={t('team number')} Mikita={t('Mikita')} Katsiaryna={t('Katsiaryna')} Volha={t('Volha')} Yauheni={t('Yauheni')}/>
+        <Team number={t('team number')} Mikita={t('Mikita')} MikitaWork={t('Mikita work')} Katsiaryna={t('Katsiaryna')} KatsiarynaWork={t('Katsiaryna work')} Volha={t('Volha')} VolhaWork={t('Volha work')} Yauheni={t('Yauheni')} YauheniWork={t('Yauheni work')}/>
       </Layout>
     )}
   </I18n>

@@ -52,11 +52,11 @@ select:focus {
 
 .lang_select {
     font-size: 26px;
-    font-family: 'Montserrat';
+    font-family: 'Montserrat', sans-serif;
     color: #373737;
     border: none;
     margin-left: 10px;
-    margin-top: 2px;
+    margin-top: 3px;
 }
 
 .lang_select:hover {
@@ -78,9 +78,7 @@ select > option:hover {
     text-decoration: none;
 }
 
-
 @media (max-width: 900px) {
-
     nav {
         display: flex;
         flex-direction: column;
@@ -100,12 +98,10 @@ select > option:hover {
 }
 
 @media (max-width: 600px) {
-
     .logo_text {
-        font-size: 24px;
+        font-size: 20px;
         margin-top: 4px;
     }
-
 }
 
 @media (max-width: 520px) {

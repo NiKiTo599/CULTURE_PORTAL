@@ -33,6 +33,7 @@ const renderWork = (authorInfo) => {
                 { renderTable(work) }
             </div>
         )
+    )
 }
 
 const AuthorWork = (authorInfo) => {

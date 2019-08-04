@@ -1,0 +1,100 @@
+{
+    "id": "18",
+    "language": "en",
+    "path": "/Kryzanowski_En",
+    "name": "Evgeny Anatolyevich Kryzhanovsky",
+    "date": "June 6, 1955",
+    "img": "Kryzanowski.jpg",
+    "youtube": "https://www.youtube.com/watch?v=r6AJQHtIsYc",
+    "places_for_map": [
+      {
+        "name": "Yanka Kupala Academic Theater",
+        "width": "53.9009059",
+        "length": "27.56275034479259"
+      },
+      {
+        "name": "Theater of satire and humor \"Christopher\"",
+        "width": "53.903325",
+        "length": "27.563281"
+      }
+    ],
+    "video_id": "r6AJQHtIsYc",
+    "place_of_birth": "Nikolaev, Nikolaev region, Ukrainian SSR",
+    "description": "Belarusian comedian, actor and director of the Minsk Theater of Satire and Humor \"Khristofor\", artistic director of the television project \"Humorinka\"",
+    "timeline": [
+      {
+        "date": "1955",
+        "text": "Evgeny Anatolyevich was born on June 6, 1955 in Nikolaev in Ukraine."
+      },
+      {
+        "date": "1973",
+        "text": "n 1973, he entered the Belarusian Theater and Art Institute in the actor department."
+      },
+      {
+        "date": "1977",
+        "text": "In 1977 he was admitted to the troupe of the Yankees Kupala Academic Theater."
+      },
+      {
+        "date": "1986",
+        "text": "In 1986, Yevgeny Kryzhanovsky, together with Vladimir Pertsov and Yuri Forest, created the theater of satire and humor \"Christopher\"."
+      },
+      {
+        "date": "2001",
+        "text": "In 2001, he put forward his candidacy in the presidential election, received 30 thousand signatures."
+      },
+      {
+        "date": "2007",
+        "text": "In 2007 he joined the Liberal Democratic Party of Belarus."
+      },
+      {
+        "date": "2010-2016",
+        "text": "In 2010-2016 was a candidate for deputy in local and parliamentary elections. In the last parliamentary elections in 2016, he won 10.9% of the vote."
+      }
+    ],
+    "works": [
+      {
+        "subject": "Movie roles",
+        "names": [
+          "Vocal and criminal ensemble - toastmaster",
+          "God bless you - police lieutenant colonel",
+          "Good name - Vadim Rabinovich",
+          "Country novel - private trader",
+          "White Wolves - the owner of the restaurant",
+          "Manna from heaven - Gennady Methodievich",
+          "Marry a millionaire! - old man",
+          "Terrorist Ivanova - hotel administrator",
+          "Wolf Messing: Seen Through Time - сasino Owner",
+          "Son - fleet director",
+          "Women in a game without rules - Olga's boyfriend"
+        ]
+      },
+      {
+        "subject": "Ranks and awards",
+        "names": [
+          "Since 2015, Honored Artist of the Republic of Belarus"
+        ]
+      }
+    ],
+    "gallery": [
+      {
+        "img": "kryzan_1.jpg",
+        "description": "Евгений Крыжановский и его любимые женщины"
+      },
+      {
+        "img": "kryzan_2.jpg",
+        "description": "Сыграл роль папаши с коляской в фильме \"Удивительные приключения Дениса Кораблёва\" 1979"
+      },
+      {
+        "img": "kryzan_3.jpg",
+        "description": "В любой ситуации оставайтесь позитивными и не опускайте руки, - дает секрет счастья читателям Комсомолки Евгений Крыжановский"
+      },
+      {
+        "img": "kryzan_4.jpg",
+        "description": "Солдат в фильме ЭВенок сонетовЭ 1976"
+      },
+      {
+        "img": "kryzan_5.jpg",
+        "description": "Заместитель председателя Либерально-демократической партии Беларуси Евгений Крыжановский подводит итоги Конгресса кандидатов в депутаты местных советов от ЛДПБ"
+      }
+    ]
+  }

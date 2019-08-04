@@ -77,3 +77,23 @@ Time spend | feature |
 2 h | fix bugs with merge |
 3 h | merge translate to netlify and resolve conflicts |
 3 h | testing netlify |
+
+# Vola-G #
+
+Time spend | feature | 
+:-----------:|:----------:|
+2 h | add basic pages layout
+2 h | add header and footer
+3 h | add styles for header
+6 h | add styles for footer, layout
+2 h | add homepage with fullscreen component
+3 h | add director and team component to homepage
+3 h | add images for gallery component
+1 h | add bootstrap
+3 h | made style changes after bootstrap install
+3 h | add title and timeline for author page
+3 h | add video overlay style
+2 h | add gallery to author page
+1 h | add author works component
+4 h | make adaptive header and team component
+2 h | final fixes
