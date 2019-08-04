@@ -52,9 +52,21 @@ Jun 04 | Jun 04 | 3 h | testing netlify
 
 Time spend | feature | 
 :-----------:|:----------:|
-6 h | make search component |
-16 h | prepare data and images |
-20 h | install i18next and implement translation |
+ 20 m| add page for search component
+ 2 h | add images and description
+ 4 h | prepare and add data about theater directors
+ 1 h | create search page markup
+ 4  h| implement search input component
+ 4 h | prepare text for the author page
+ 2 h | add data for map component
+2 h  | add images for gallery component
+ 1 h | fix structure of data
+ 2 h | change configuration of the project for the i18next library, install i18next
+ 3 h | add switcher of language
+ 3 h | make translation of the index and search pages
+ 2 h | make translation of the footer, header, layout components
+ 6 h | make translation of the author page
+30 m | add worklog.md file |
 
 # NiKiTo599 #
 
@@ -97,3 +109,36 @@ Time spend | feature |
 1 h | add author works component
 4 h | make adaptive header and team component
 2 h | final fixes
+
+# Self сheck #
+
+1. ask - https://github.com/rolling-scopes-school/tasks/blob/2018-Q3/tasks/codejam-culture-portal.md
+
+2. End date - 04.08.2019 / 21.30
+
+3. Total
+
+### Min scope - **40**
+
++ Main page, page with a list of authors,author's page, 
++ Page with list of authors contains search widget
++ Portal has two languages (We have 4)
+
+### Normal scope - **130**
+
++ Author's page contains timeline
++ Author's page contains video overlay
++ Author's page contains photo gallery
++ Author's page contains map (geowidget)
++ all widgets are done in React
++ Design
++ bootstrap is used 
+
+### Extra scope - **70**
+
++ Confidence of the project presentation
++ Project is made using gatsbyjs
++ Netlify cms is used for content management
++ Portal has third language
+
+4. Mark: 40 + 130 + 70 = 240
