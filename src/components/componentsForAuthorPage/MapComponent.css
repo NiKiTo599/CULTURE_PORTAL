@@ -5,3 +5,10 @@
   width: 800px;
   margin: 100px auto;
 }
+
+@media (max-width: 425px) {
+  .leaflet-container {
+    width: 100%;
+    margin: 0;
+  }
+}

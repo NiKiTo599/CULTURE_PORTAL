@@ -57,13 +57,12 @@
         font-size: 1.5rem;
     }
     .container {
-        height: 80vh; 
+        height: 25vh; 
     }
 
     .image {
-        width: auto;
+        width: 100%;
         height: inherit;
-        left: -20%;
         position: relative;
     }
 }
