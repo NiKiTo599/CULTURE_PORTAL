@@ -1,0 +1,98 @@
+{
+    "id": "15",
+    "language": "en",
+    "path": "/Buslaeva_En",
+    "name": "Veronika Alexandrovna Buslaeva",
+    "date": "October 3, 1978",
+    "img": "Buslaeva.jpg",
+    "youtube": "https://www.youtube.com/watch?v=kRp1dTeUo-8",
+    "video_id": "kRp1dTeUo-8",
+    "places_for_map": [
+      {
+        "name": "Республиканский театр белорусской драматургии",
+        "width": "53.916759",
+        "length": "27.556389"
+      },
+      {
+        "name": "Belarusian State University of Culture and Arts",
+        "width": "53.886868",
+        "length": "27.541649"
+      },
+      {
+        "name": "Minsk Secondary school №27",
+        "width": "53.919137",
+        "length": "27.558164"
+      }
+    ],
+    "place_of_birth": "Minsk",
+    "description": "Belarusian theater actress, theater director and playwright",
+    "timeline": [
+      {
+        "date": "1978",
+        "text": "The artist was born in Minsk on October 3, 1978."
+      },
+      {
+        "date": "1997",
+        "text": "In 1997 Veronika Alexandrovna entered the Belarusian State University of Culture."
+      },
+      {
+        "date": "2001",
+        "text": "Since 2001, she became an actress of the Republican Theater of Belarusian Drama."
+      },
+      {
+        "date": "2002",
+        "text": "In 2002, she graduated from the Belarusian State University of Culture, receiving a specialty \"director, organizer of theater activities, teacher of special disciplines \"."
+      },
+      {
+        "date": "2001 - present",
+        "text": "From 2001 to the present, she has been working at the Republican Theater of Belarusian Drama. In addition to working in the RTBD, she was engaged in pedagogical activities: she worked as a teaching assistant in directing at the Belarusian State University of Culture and Arts on the course of V. Aksenenko, and also taught stage language at the school number 27 in Minsk with a theatrical bias"
+      }
+    ],
+    "works": [
+      {
+        "subject": "Roles in performances",
+        "names": [
+          "\"Adele\" by Y. Taganova (staged by Vitaly Dudin) - Kristina",
+          "\"The Chernobyl Prayer\" - Virginia",
+          "\"The Eternal Song\" by Y. Kupala (staged by Sergey Kovalchik) - Daughter-in-law",
+          "\"The Wolf-the-Mariner\" by S. Kozlov (staged by Sergey Kovalchik) - The Hare",
+          "\"White Angel with Black Wings\" D. Balyko (staged by Venedikt Raststrizhenkov) - Arkady",
+          "\"The Brownies\" by E. Konev (staged by Sergei Kovalchik) - Jules",
+          "\"Sisters of Psyche\"S. Kovalev (staged by Sergei Kovalchik) - Psyche",
+          "\"The Adventures of the Little Witch\" by A. Bychkov based on the tale of O. Preusler (staged by Sergey Kovalchik) - Bert",
+          "\"The Story of Two Dogs\" by E. Konev (staged by Svetlana Naumenko) - Bulka,",
+          "\"Three Gisels\" (director Alexander Gartsuev) - Spring Giselle",
+          "\"Live to the Premiere\" M. Rudkovsky (director P. Harlanchuk-Yuzhakov) - Vera"
+        ]
+      },
+      {
+        "subject": "Ranks and awards",
+        "names": [
+          "In 2004, she received a scholarship from the Special Fund of the President of the Republic of Belarus for Supporting Talented Youth",
+          "A. Kureichyka received a special jury prize for the Listopad 2007 festival for her role Sister Joanna in the play “The Piedmontese Beast”"
+        ]
+      }
+    ],
+    "gallery": [
+      {
+        "img": "buslaeva_2.jpg",
+        "description": "\"Парфюмерша\"(2013)"
+      },
+      {
+        "img": "buslaeva_3.jpg",
+        "description": "Буслаева Вероника Александровна"
+      },
+      {
+        "img": "buslaeva_1.jpg",
+        "description": "Премьера ее режиссерского дебюта «Все мыши любят цирк»"
+      },
+      {
+        "img": "buslaeva_4.jpeg",
+        "description": "Белорусский государственный университет культуры и искусств"
+      },
+      {
+        "img": "buslaeva_5.jpg",
+        "description": "Республиканский театр белорусской драматургии"
+      }
+    ]
+  }
