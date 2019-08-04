@@ -1,0 +1,114 @@
+{
+    "id": "17",
+    "language": "en",
+    "path": "/Golubok_En",
+    "name": "Vladislav Iosifovich Golubok",
+    "date": "May 3 (15), 1882",
+    "img": "Galubok.jpg",
+    "youtube": "https://www.youtube.com/watch?v=JXL-D9YWl0I",
+    "video_id": "JXL-D9YWl0I",
+    "places_for_map": [
+      {
+        "name": " Yanka Kupala Academic Theater",
+        "width": "53.9009059",
+        "length": "27.56275034479259"
+      }
+    ],
+    "place_of_birth": "Station Lesnaya, Baranavichy district",
+    "description": "Belarusian Soviet actor, director, writer, artist, decorator, first People's Artist of the Belarusian SSR, one of the founders of the Belarusian National Theater, artistic director and director of the Belarusian State Theater",
+    "timeline": [
+      {
+        "date": "1882",
+        "text": "Vladislav Iosifovich Golubok was born on May 3 (15), 1882 at the Lesnaya station near Baranovichi in the family of a railway worker."
+      },
+      {
+        "date": "1895",
+        "text": "From the age of 13 he worked as a clerk in a store, then was a clerk on the railway."
+      },
+      {
+        "date": "1906",
+        "text": "He began his creative activity in 1906 (according to other sources in 1908), was engaged in literary activities, collaborated with the Belarusian newspaper Nasha Niva (Vilna)."
+      },
+      {
+        "date": "1913",
+        "text": "In 1913, the first book by Vladislav Golubok \"Stories\" was published in St. Petersburg."
+      },
+      {
+        "date": "1920",
+        "text": "In the summer of 1920, Vladislav Golubok headed the Drama section of the cultural and educational organization \"Fern Flower\" in Slutsk. Also in 1920 he created a troupe of Belarusian artists at the Belarusian Workers Club in Minsk, was its artistic director."
+      },
+      {
+        "date": "1925",
+        "text": "In 1925 alone, the Golubka troupe gave over 150 performances in the Minsk Region."
+      },
+      {
+        "date": "1937",
+        "text": "He was unreasonably repressed and shot in 1937 (according to other sources in 1942)."
+      },
+      {
+        "date": "1957",
+        "text": "In 1957, he was posthumously rehabilitated."
+      },
+      {
+        "subject": "Ranks and awards",
+        "names": [
+          "Since 1928 becomes the People's Artist of Belarus"
+        ]
+      }
+    ],
+    "works": [
+      {
+        "subject": "Пьесы",
+        "names": [
+          "На реке Березе",
+          "Утром",
+          "Туманы",
+          "Суд: пьеса в 1 акте",
+          "Последнее свидание: драма в 4 актах",
+          "Анна: драма в 5 актах",
+          "Писаревы именины: комедия в 1 акте",
+          "Впечатления",
+          "Последнее свидание: драма в 4 актах"
+        ]
+      },
+      {
+        "subject": "Постановки",
+        "names": [
+          "Последние свидание",
+          "Невинная кровь",
+          "Безродный",
+          "Суд",
+          "Пан Суринт",
+          "Фанатик",
+          "Белый венок",
+          "Краб",
+          "Белое оружие",
+          "Бабы-злодейки",
+          "Липовичок",
+          "Душегуб"
+        ]
+      }
+    ],
+    "gallery": [
+      {
+        "img": "galubok_1.png",
+        "description": "Со дня рождения Владислава Голубка — 137 лет"
+      },
+      {
+        "img": "golubok_2.jpg",
+        "description": "Музей Гостиная Владислава Голубка"
+      },
+      {
+        "img": "golubok_3.jpg",
+        "description": "На экспозиции посетители имеют возможность через фотографии,дакументы,афиши познакомиться с жизнью и творчеством В. И. Голубка."
+      },
+      {
+        "img": "golubok_4.jpg",
+        "description": "музей Гостиная Владислава Голубка г. Минск, ул. Старовиленская, 14 Троицкое предместье, набережная Свислочи"
+      },
+      {
+        "img": "galubok_5.jpg",
+        "description": "Исторические свидетельства жизненной и творческой деятельности В. Голубка"
+      }
+    ]
+  }
