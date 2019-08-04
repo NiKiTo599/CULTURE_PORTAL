@@ -1,6 +1,6 @@
 import React from 'react';
 import { I18n } from 'react-i18next';
-import { Carousel, Container } from 'react-bootstrap';
+import { Carousel } from 'react-bootstrap';
 import GalleryStyle from './authorStyles/gallery.module.css';
 
 
@@ -10,7 +10,7 @@ function renderSlides(authorInfo) {
         <Carousel.Item fade={false}>
             <img
                 className="d-block w-100"
-                src={require('../../data/images/gallery/'+photo.img)}
+                src={require('../../images'+photo.img)}
                 alt={authorInfo.name}
             />
             <Carousel.Caption>

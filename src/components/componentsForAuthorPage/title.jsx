@@ -10,7 +10,7 @@ const Title = (authorInfo) => {
             <Row>
                 <Col sm={4}>
                     <img 
-                        src={require('../../images/'+ authorInfo.img)} alt='authorInfo.name' className={TitleStyle.author_image}
+                        src={require('../../images'+ authorInfo.img)} alt='authorInfo.name' className={TitleStyle.author_image}
                     />
                 </Col>
                 <Col sm={8}>

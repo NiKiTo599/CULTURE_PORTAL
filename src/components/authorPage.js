@@ -13,7 +13,7 @@ import AuthorWork from "./componentsForAuthorPage/authorWork";
 const athorPage = ({ data }) => {
   console.log(data);
   const infoOfAuthor = data.allFile.edges[0].node.childDataJson;
-  console.log(infoOfAuthor);
+  console.log(infoOfAuthor.places_for_map.width);
   return (
     <I18n>
       {t => (
