@@ -3,7 +3,7 @@
   "path": "/Golubok",
   "name": "Владислав Иосифович Голубок",
   "date": "3 (15) мая 1882",
-  "img": "Galubok.jpg",
+  "img": "/Galubok.jpg",
   "youtube": "https://www.youtube.com/watch?v=JXL-D9YWl0I",
   "video_id": "JXL-D9YWl0I",
   "places_for_map": [
@@ -90,23 +90,23 @@
   ],
   "gallery": [
     {
-      "img": "galubok_1.png",
+      "img": "/galubok_1.png",
       "description": "Со дня рождения Владислава Голубка — 137 лет"
     },
     {
-      "img": "golubok_2.jpg",
+      "img": "/golubok_2.jpg",
       "description": "Музей Гостиная Владислава Голубка"
     },
     {
-      "img": "golubok_3.jpg",
+      "img": "/golubok_3.jpg",
       "description": "На экспозиции посетители имеют возможность через фотографии,дакументы,афиши познакомиться с жизнью и творчеством В. И. Голубка."
     },
     {
-      "img": "golubok_4.jpg",
+      "img": "/golubok_4.jpg",
       "description": "музей Гостиная Владислава Голубка г. Минск, ул. Старовиленская, 14 Троицкое предместье, набережная Свислочи"
     },
     {
-      "img": "galubok_5.jpg",
+      "img": "/galubok_5.jpg",
       "description": "Исторические свидетельства жизненной и творческой деятельности В. Голубка"
     }
   ]

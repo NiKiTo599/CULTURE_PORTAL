@@ -3,7 +3,7 @@
   "path": "/Buynitsky",
   "name": "Игнат Терентьевич Буйницкий",
   "date": "10 (22) августа 1861",
-  "img": "Buynitsky.jpg",
+  "img": "/buynitsky.jpg",
   "youtube": "https://www.youtube.com/watch?v=kVDHOril4-Q",
   "video_id": "kVDHOril4-Q",
   "places_for_map": [
@@ -89,19 +89,19 @@
   ],
   "gallery": [
     {
-      "img": "buynitsky.jpg",
+      "img": "/buynitsky.jpg",
       "description": "Игнат Буйницкий"
     },
     {
-      "img": "buynitsky_1.jpg",
+      "img": "/buynitsky_1.jpg",
       "description": "Труппа Игната Буйницкого"
     },
     {
-      "img": "buynitsky_2.jpg",
+      "img": "/buynitsky_2.jpg",
       "description": "Игнат Буйницкий"
     },
     {
-      "img": "buynitsky_3.jpg",
+      "img": "/buynitsky_3.jpg",
       "description": "Игнат Буйницкий"
     }
   ]

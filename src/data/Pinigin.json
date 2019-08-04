@@ -3,7 +3,7 @@
   "path": "/Pinigin",
   "name": "Николай Николаевич Пинигин",
   "date": "6 августа 1957",
-  "img": "Pinigin.jpg",
+  "img": "/Pinigin.jpg",
   "youtube": "https://www.youtube.com/watch?v=lexVZsR-GF0",
   "video_id": "lexVZsR-GF0",
   "places_for_map": [
@@ -90,23 +90,23 @@
   ],
   "gallery": [
     {
-      "img": "pinigin_2.jpg",
+      "img": "/pinigin_2.jpg",
       "description": "20 марта 2008 гость онлайн-конференции на TUT.BY"
     },
     {
-      "img": "pinigin_1.jpg",
+      "img": "/pinigin_1.jpg",
       "description": "Николай Николаевич Пинигин"
     },
     {
-      "img": "pinigin_3.jpg",
+      "img": "/pinigin_3.jpg",
       "description": "Cпектакль \"Толерантность\" 2018, режиссёр-постановщик - Николай Николаевич Пинигин"
     },
     {
-      "img": "pinigin_4.jpg",
+      "img": "/pinigin_4.jpg",
       "description": "На рабочем месте"
     },
     {
-      "img": "pinigin_5.jpg",
+      "img": "/pinigin_5.jpg",
       "description": "Национальный академический театр имени Янки Купалы"
     }
   ]

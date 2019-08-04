@@ -3,7 +3,7 @@
   "path": "/Kryzanowski",
   "name": "Евгений Анатольевич Крыжановский",
   "date": "6 июня 1955",
-  "img": "Kryzanowski.jpg",
+  "img": "/Kryzanowski.jpg",
   "youtube": "https://www.youtube.com/watch?v=r6AJQHtIsYc",
   "places_for_map": [
     {
@@ -76,23 +76,23 @@
   ],
   "gallery": [
     {
-      "img": "kryzan_1.jpg",
+      "img": "/kryzan_1.jpg",
       "description": "Евгений Крыжановский и его любимые женщины"
     },
     {
-      "img": "kryzan_2.jpg",
+      "img": "/kryzan_2.jpg",
       "description": "Сыграл роль папаши с коляской в фильме \"Удивительные приключения Дениса Кораблёва\" 1979"
     },
     {
-      "img": "kryzan_3.jpg",
+      "img": "/kryzan_3.jpg",
       "description": "В любой ситуации оставайтесь позитивными и не опускайте руки, - дает секрет счастья читателям Комсомолки Евгений Крыжановский"
     },
     {
-      "img": "kryzan_4.jpg",
+      "img": "/kryzan_4.jpg",
       "description": "Солдат в фильме ЭВенок сонетовЭ 1976"
     },
     {
-      "img": "kryzan_5.jpg",
+      "img": "/kryzan_5.jpg",
       "description": "Заместитель председателя Либерально-демократической партии Беларуси Евгений Крыжановский подводит итоги Конгресса кандидатов в депутаты местных советов от ЛДПБ"
     }
   ]

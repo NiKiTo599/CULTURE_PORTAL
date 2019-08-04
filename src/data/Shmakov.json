@@ -3,7 +3,7 @@
   "path": "/Shmakov",
   "name": "Фёдор Иванович Шмаков",
   "date": "16 февраля (1 марта) 1917",
-  "img": "Shmakov.jpg",
+  "img": "/Shmakov.jpg",
   "youtube": "https://www.youtube.com/watch?v=4aiEf8n3b98",
   "video_id": "4aiEf8n3b98",
   "places_for_map": [
@@ -127,23 +127,23 @@
   ],
   "gallery": [
     {
-      "img": "shmakov_1.jpg",
+      "img": "/shmakov_1.jpg",
       "description": "С дочкой Наденькой"
     },
     {
-      "img": "shmakov_2.jpg",
+      "img": "/shmakov_2.jpg",
       "description": "Спектакль «Правда — хорошо, а счастье лучше». Федор Шмаков в роли Грознова"
     },
     {
-      "img": "shmakov_3.jpg",
+      "img": "/shmakov_3.jpg",
       "description": "Спектакль «Нестерка» "
     },
     {
-      "img": "shmakov_4.jpg",
+      "img": "/shmakov_4.jpg",
       "description": "Федор Шмаков искренне любил Витебск. А еще больше - свою дачу на берегу Западной Двины"
     },
     {
-      "img": "shmakov_5.jpg",
+      "img": "/shmakov_5.jpg",
       "description": "\"Поднятая целина\" (1959) - советский трёхсерийный фильм с Петром Черновым, Евгением Матвеевым и Фёдором Шмаковым в главных ролях"
     }
   ]

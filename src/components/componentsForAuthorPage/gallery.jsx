@@ -10,7 +10,7 @@ function renderSlides(authorInfo) {
         <Carousel.Item fade={false}>
             <img
                 className="d-block w-100"
-                src={require('../../images/'+photo.img)}
+                src={require('../../images'+photo.img)}
                 alt={authorInfo.name}
             />
             <Carousel.Caption>

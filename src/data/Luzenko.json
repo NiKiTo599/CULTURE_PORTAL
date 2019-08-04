@@ -3,7 +3,7 @@
   "path": "/Luzenko",
   "name": "Борис Иванович Луценко",
   "date": "16 сентября 1937",
-  "img": "Luzenko.jpg",
+  "img": "/Luzenko.jpg",
   "youtube": "https://www.youtube.com/watch?v=6Lbi3ObnBng",
   "video_id": "6Lbi3ObnBng",
   "places_for_map": [
@@ -100,23 +100,23 @@
   ],
   "gallery": [
     {
-      "img": "luzenko_1.jpg",
+      "img": "/luzenko_1.jpg",
       "description": "Борис Иванович Луценко"
     },
     {
-      "img": "luzenko_2.jpg",
+      "img": "/luzenko_2.jpg",
       "description": "Место работы - Национального академического драматического театра имени М. Горького"
     },
     {
-      "img": "luzenko_3.jpg",
+      "img": "/luzenko_3.jpg",
       "description": "Сегодня Борису Луценко 82 года!"
     },
     {
-      "img": "luzenko_4.jpg",
+      "img": "/luzenko_4.jpg",
       "description": "Кадр из фильма «Раскиданное гнездо»"
     },
     {
-      "img": "luzenko_5.jpg",
+      "img": "/luzenko_5.jpg",
       "description": "Президент Республики Беларусь Александр Лукашенко вручает медаль Франциска Скорины режиссеру Борису Луценко"
     }
   ]

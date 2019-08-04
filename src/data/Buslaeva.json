@@ -3,7 +3,7 @@
   "path": "/Buslaeva",
   "name": "Вероника Александровна Буслаева",
   "date": "3 октября 1978",
-  "img": "Buslaeva.jpg",
+  "img": "/Buslaeva.jpg",
   "youtube": "https://www.youtube.com/watch?v=kRp1dTeUo-8",
   "video_id": "kRp1dTeUo-8",
   "places_for_map": [
@@ -74,23 +74,23 @@
   ],
   "gallery": [
     {
-      "img": "buslaeva_2.jpg",
+      "img": "/buslaeva_2.jpg",
       "description": "\"Парфюмерша\"(2013)"
     },
     {
-      "img": "buslaeva_3.jpg",
+      "img": "/buslaeva_3.jpg",
       "description": "Буслаева Вероника Александровна"
     },
     {
-      "img": "buslaeva_1.jpg",
+      "img": "/buslaeva_1.jpg",
       "description": "Премьера ее режиссерского дебюта «Все мыши любят цирк»"
     },
     {
-      "img": "buslaeva_4.jpeg",
+      "img": "/buslaeva_4.jpeg",
       "description": "Белорусский государственный университет культуры и искусств"
     },
     {
-      "img": "buslaeva_5.jpg",
+      "img": "/buslaeva_5.jpg",
       "description": "Республиканский театр белорусской драматургии"
     }
   ]
