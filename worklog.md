@@ -112,7 +112,7 @@ Time spend | feature |
 
 # Self сheck #
 
-1. ask - https://github.com/rolling-scopes-school/tasks/blob/2018-Q3/tasks/codejam-culture-portal.md
+1. Тask - https://github.com/rolling-scopes-school/tasks/blob/2018-Q3/tasks/codejam-culture-portal.md
 
 2. End date - 04.08.2019 / 21.30
 
@@ -120,7 +120,7 @@ Time spend | feature |
 
 ### Min scope - **40**
 
-+ Main page, page with a list of authors,author's page, 
+**+** Main page, page with a list of authors,author's page, 
 + Page with list of authors contains search widget
 + Portal has two languages (We have 4)
 
