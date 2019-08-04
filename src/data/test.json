@@ -1,0 +1,51 @@
+{
+  "timeline": [
+    {
+      "date": "1957",
+      "text": "Николай Николаевич Пинигин родился 6 августа 1957."
+    },
+    {
+      "date": "1979",
+      "text": "В 1979 Николай Николаевич окончил режиссерский факультет Белорусского театрально-художественного института."
+    }
+  ],
+  "works": [
+    {
+      "subject": "Театральные постановки",
+      "names": [
+        "Женщина с моря",
+        ":tyobyf c gkz;f",
+        "fhbjdsknlmdvbdfb",
+        "sjbvjdkbdjf",
+        "test",
+        "test"
+      ]
+    },
+    {
+      "subject": "TEST",
+      "names": [
+        "TEST"
+      ]
+    }
+  ],
+  "img": "/uploads/1.jpg",
+  "path": "/test",
+  "name": "ТЕСТ",
+  "date": "6 августа 1957",
+  "place_of_birth": "Изюм Харьковская область УССР",
+  "gallery": [
+    {
+      "img": "/uploads/1.jpg",
+      "description": "йуйцвапро"
+    }
+  ],
+  "places_for_map": [
+    {
+      "name": "sfgddsfbdf",
+      "width": "85",
+      "length": "96"
+    }
+  ],
+  "description": "белорусский режиссёр, заслуженный деятель искусств Республики Беларусь",
+  "video_id": "lexVZsR-GF0"
+}
