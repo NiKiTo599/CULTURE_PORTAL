@@ -22,8 +22,7 @@ export default class MapComponent extends React.Component {
       <Marker key={idGenerator()} position={[place.width, place.length]}>
         <Popup>{place.name}</Popup>
       </Marker>
-  ));
-    console.log(places[0].width)
+    ));
     return (
       <MapOfPlaces
         center={[places[0].width, places[0].length]}

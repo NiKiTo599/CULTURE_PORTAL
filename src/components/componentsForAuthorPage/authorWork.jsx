@@ -22,7 +22,6 @@ const renderTable = (work) => {
 }
 
 const renderWork = (authorInfo) => {
-    console.log(authorInfo)
     return (authorInfo.works.length > 1) ?
         (authorInfo.works.map((work) => (
             <div>
@@ -37,7 +36,6 @@ const renderWork = (authorInfo) => {
 }
 
 const AuthorWork = (authorInfo) => {
-    console.log(authorInfo.works.length);
     const workTable = renderWork(authorInfo);
     return (
         <div className={WorksStyle.container}>
