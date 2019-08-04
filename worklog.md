@@ -121,24 +121,24 @@ Time spend | feature |
 ### Min scope - **40**
 
 **+** Main page, page with a list of authors,author's page, 
-+ Page with list of authors contains search widget
-+ Portal has two languages (We have 4)
+**+** Page with list of authors contains search widget
+**+** Portal has two languages (We have 4)
 
 ### Normal scope - **130**
 
-+ Author's page contains timeline
-+ Author's page contains video overlay
-+ Author's page contains photo gallery
-+ Author's page contains map (geowidget)
-+ all widgets are done in React
-+ Design
-+ bootstrap is used 
+**+** Author's page contains timeline
+**+** Author's page contains video overlay
+**+** Author's page contains photo gallery
+**+** Author's page contains map (geowidget)
+**+** all widgets are done in React
+**+** Design
+**+** bootstrap is used 
 
 ### Extra scope - **70**
 
-+ Confidence of the project presentation
-+ Project is made using gatsbyjs
-+ Netlify cms is used for content management
-+ Portal has third language
+**+** Confidence of the project presentation
+**+** Project is made using gatsbyjs
+**+** Netlify cms is used for content management
+**+** Portal has third language
 
 4. Mark: 40 + 130 + 70 = 240
