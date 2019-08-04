@@ -23,17 +23,12 @@ const renderTable = (work) => {
 
 const renderWork = (authorInfo) => {
     console.log(authorInfo)
-    return (authorInfo.works.length > 1) ?
-        (authorInfo.works.map((work) => (
+    return authorInfo.works.map((work) => (
             <div>
                 { renderTable(work) }
             </div>
         )
-        )) : (
-            <div>
-                { renderTable(work) }
-            </div>
-        )
+    )
 }
 
 const AuthorWork = (authorInfo) => {
