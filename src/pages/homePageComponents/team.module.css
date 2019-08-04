@@ -68,6 +68,10 @@ svg:hover {
     color: #fff;
 }
 
+.row {
+    margin: 0;
+}
+
 @media (max-width: 768px) {
     .member {
         border: none;

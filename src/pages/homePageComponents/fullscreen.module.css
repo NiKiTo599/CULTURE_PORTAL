@@ -50,4 +50,15 @@
         font-size: 2rem;
     }
 
+    .container {
+        height: 80vh; 
+    }
+
+    .image {
+        width: auto;
+        height: inherit;
+        left: -20%;
+        position: relative;
+    }
+
 }
